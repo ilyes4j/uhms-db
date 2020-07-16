@@ -1,0 +1,29 @@
+{
+  "token_bds": "jlvYvc5OVXQDcvJouRgyd+yVpBhER4S6slFJqNXmjsezGW7PAUsGtOZqVQnXzcz36IyhO/r2AgqgC7lnUuZFT+wTZWnV4U70h+TNmgRoU+Yccc9k+eOqlDmJHdjtQwbKUciXyjOYV0YD8Sko/jFUfo/Df3Eq1P7nFCviXz+qzZfd8Nj7+1CuwOwgV+cYIVEw9h1P55RNWSgK+Q7YZSpa/Yx5h9lUDA4B8NSVD0k01aa4YSbgPr7QRsbITMuN0aKkees9s/pnl0DrR4Ti+MlfjvYOnt/u+xsjV3kXxRaItg7gkWjjbeZCbke8q2ZExaLNTfyVWdkL3+Bbllqa76OaYNKYPLbU3EoKxEXPMjwvrtnE7dGjx4dIo5O6z2Hqo+CF7ueEZrebUu/RaVRdf5lzYn3uZYag5xQIf+NhEqkRlvfX5/sTrt6mkR0yI0o7beivWGt0epo1KkY08+DZRNgMTTF1cDwQVzjKVwjLjYUO57nmlGvNvWp5RwVcW3NC7wChqsm4mRaakVze3aUd2qSPxG3WP1+Zg2/qkGBNAwCxpe1zJBteecnN0pmBt9tgk8EF",
+  "contexte": {
+    "contexte_odata": "iclKUeopmzixwJ/gczd1V0g4cUp0v7AaXkotP4LY3Iv1Ldbldwv/GITH5Cmvsjb3EVRdDhtDlbsjXa+vXeSxfSMS+hmAUavf/USuWhxJEommoPpUufReZqlqVN29nVqbZI3PEFTD+OCtoPaELFmzxA==",
+    "mode": "1",
+    "Siret": "79213584000017",
+    "nom": "gueu",
+    "prenom": "houngouguiva",
+    "mail": "cas1-d@atos.fr",
+    "tel": "0276678687",
+    "tel_mobile": "0611111111",
+    "pwdperso": "O",
+    "nni": "158129932638183",
+    "idabo": "A0Dmwa8A1ewR6LqAUlQA23xW",
+    "coti": {
+      "siret": "79213584000017",
+      "orga": "U117",
+      "cat": "3",
+      "numcot": "117000001526370221",
+      "etat": "A"
+    },
+    "cotisHisto": []
+  },
+  "data": {
+    "Password": "",
+    "NewPassword": "",
+    "NewPasswordC": ""
+  }
+}

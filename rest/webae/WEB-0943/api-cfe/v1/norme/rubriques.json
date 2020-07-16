@@ -1,0 +1,1173 @@
+{
+  "PersonnePhysique/SMP/P41/P41.4": {
+    "code": "P41.4",
+    "minTaille": 1,
+    "maxTaille": 32,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Entreprise/Etablissement/ACE/E71": {
+    "code": "E71",
+    "minTaille": 1,
+    "maxTaille": 140,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "obligatoire": true
+  },
+  "PersonnePhysique/SMP/P41/P41.3": {
+    "code": "P41.3",
+    "maxTaille": 38,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Entreprise/Etablissement/ACE/E70": {
+    "code": "E70",
+    "maxTaille": 840,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "PersonnePhysique/SMP/P41/P41.2": {
+    "code": "P41.2",
+    "maxTaille": -1,
+    "pattern": "((2A|2B|[0-2]{1}[1-9]{1}|10|[3-8]{1}\\d{1}|[9]{1}[0-5]{1})\\d{3})|(97[1-8]{1}\\d{2})|(98[4-9]\\d{2})|(99[1-5]\\d{2})|99998",
+    "obligatoire": true,
+    "donneeReference": {
+      "classe": {
+        "code": "CODE_GEO"
+      }
+    }
+  },
+  "PersonnePhysique/SMP/P41/P41.1": {
+    "code": "P41.1",
+    "maxTaille": -1,
+    "pattern": "....-..-..",
+    "obligatoire": true
+  },
+  "Entreprise/Etablissement/CAE/E73/E73.1": {
+    "code": "E73.1",
+    "maxTaille": -1,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "obligatoire": true,
+    "donneeReference": {
+      "classe": {
+        "code": "PERMANENCE_ACTIVITE",
+        "type": "CFE"
+      },
+      "liste": {
+        "P": "Permanente",
+        "S": "Saisonnière"
+      }
+    }
+  },
+  "Entreprise/Etablissement/ICE/E02/E02.13": {
+    "code": "E02.13",
+    "minTaille": 1,
+    "maxTaille": 32,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Entreprise/Etablissement/ICE/E02/E02.11": {
+    "code": "E02.11",
+    "maxTaille": 4,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "donneeReference": {
+      "classe": {
+        "code": "TYPE_DE_VOIE",
+        "type": "CFE"
+      },
+      "liste": {
+        "VLA": "Villa",
+        "CRS": "Cours",
+        "TRA": "Traverse",
+        "AV": "Avenue",
+        "RTE": "Route",
+        "RUE": "Rue",
+        "JTE": "Jetée",
+        "QUAI": "Quai",
+        "COR": "Corniche",
+        "MTE": "Montée",
+        "ALL": "Allée",
+        "HAM": "Hameau",
+        "SQ": "Square",
+        "CHE": "Chemin",
+        "PL": "Place",
+        "PAS": "Pas (sage)",
+        "IMP": "Impasse",
+        "TRT": "Tertre",
+        "ECA": "Ecart",
+        "GR": "Grand Rue",
+        "BD": "Boulevard",
+        "CAR": "Carrefour",
+        "PRO": "Promenade",
+        "TPL": "Terre-Plein"
+      }
+    }
+  },
+  "Entreprise/Etablissement/ICE/E02/E02.12": {
+    "code": "E02.12",
+    "maxTaille": 32,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "PersonnePhysique/DAP/P70": {
+    "code": "P70",
+    "minTaille": 1,
+    "maxTaille": 1,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "obligatoire": true,
+    "donneeReference": {
+      "classe": {
+        "code": "OPTION_EIRL",
+        "type": "CFE"
+      },
+      "liste": {
+        "R": "Reprise d'un patrimoine",
+        "O": "Déclaration initiale"
+      }
+    }
+  },
+  "Entreprise/SIU/U15": {
+    "code": "U15",
+    "minTaille": 9,
+    "maxTaille": 9,
+    "pattern": "[\\d]*"
+  },
+  "PersonnePhysique/DAP/P71": {
+    "code": "P71",
+    "maxTaille": 120,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "PersonnePhysique/DAP/P73": {
+    "code": "P73",
+    "maxTaille": 420,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Entreprise/SIU/U10": {
+    "code": "U10",
+    "maxTaille": 120,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Entreprise/SIU/U11/U11.5": {
+    "code": "U11.5",
+    "maxTaille": 9,
+    "pattern": "[\\d\\sAaà\\-]*"
+  },
+  "Entreprise/SIU/U11/U11.6": {
+    "code": "U11.6",
+    "minTaille": 1,
+    "maxTaille": 1,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z]",
+    "donneeReference": {
+      "classe": {
+        "code": "INDICE_REPETITION",
+        "type": "CFE"
+      },
+      "liste": {
+        "D": "D",
+        "E": "E",
+        "F": "F",
+        "G": "G",
+        "A": "A",
+        "B": "B (Bis)",
+        "C": "C (Quarter",
+        "L": "L",
+        "M": "M",
+        "N": "N",
+        "O": "O",
+        "H": "H",
+        "I": "I",
+        "J": "J",
+        "K": "K",
+        "U": "U",
+        "T": "T (Ter)",
+        "W": "W",
+        "V": "V",
+        "Q": "Q (Quinquies)",
+        "P": "P",
+        "S": "S",
+        "R": "R",
+        "Y": "Y",
+        "X": "X",
+        "Z": "Z"
+      }
+    }
+  },
+  "Entreprise/SIU/U11/U11.9": {
+    "code": "U11.9",
+    "maxTaille": 32,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Entreprise/SIU/U11/U11.8": {
+    "code": "U11.8",
+    "maxTaille": 9,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "donneeReference": {
+      "classe": {
+        "code": "CODE_POSTAL"
+      }
+    }
+  },
+  "Entreprise/SIU/U11/U11.7": {
+    "code": "U11.7",
+    "maxTaille": 8,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Service/ADF/C39/C39.1": {
+    "code": "C39.1",
+    "minTaille": 1,
+    "maxTaille": 14,
+    "pattern": "[\\d]*"
+  },
+  "Service/ADF/C39/C39.3": {
+    "code": "C39.3",
+    "maxTaille": 80,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\p{N}_\\-]+(\\.(?![×Þß÷þø])[a-zÀ-ÿA-Z\\p{N}_\\-]+)*@(?![×Þß÷þø])[a-zÀ-ÿA-Z\\p{N}_\\-]+(\\.(?![×Þß÷þø])[a-zÀ-ÿA-Z\\p{N}_\\-]+)+"
+  },
+  "PersonnePhysique/GCS/ISS/A10/A10.1": {
+    "code": "A10.1",
+    "minTaille": 13,
+    "maxTaille": 13,
+    "pattern": "\\d{5}(\\d{2}|2A|2B)\\d{6}",
+    "obligatoire": true
+  },
+  "PersonnePhysique/GCS/ISS/A10/A10.2": {
+    "code": "A10.2",
+    "minTaille": 2,
+    "maxTaille": 2,
+    "pattern": "[\\d]*",
+    "obligatoire": true
+  },
+  "PersonnePhysique/GCS/SCS/A55/A55.1": {
+    "code": "A55.1",
+    "minTaille": 13,
+    "maxTaille": 13,
+    "pattern": "\\d{5}(\\d{2}|2A|2B)\\d{6}",
+    "obligatoire": true
+  },
+  "PersonnePhysique/ICP/P06": {
+    "code": "P06",
+    "maxTaille": 1,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "donneeReference": {
+      "classe": {
+        "code": "QUALITE_NONSEDENTAIRE",
+        "type": "CFE"
+      },
+      "liste": {
+        "E": "Ambulant ressortissant UE hors France",
+        "A": "Ambulant"
+      }
+    }
+  },
+  "PersonnePhysique/GCS/SCS/A55/A55.2": {
+    "code": "A55.2",
+    "minTaille": 2,
+    "maxTaille": 2,
+    "pattern": "[\\d]*",
+    "obligatoire": true
+  },
+  "PersonnePhysique/ICP/P04/P04.11": {
+    "code": "P04.11",
+    "maxTaille": 4,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "donneeReference": {
+      "classe": {
+        "code": "TYPE_DE_VOIE",
+        "type": "CFE"
+      },
+      "liste": {
+        "VLA": "Villa",
+        "CRS": "Cours",
+        "TRA": "Traverse",
+        "AV": "Avenue",
+        "RTE": "Route",
+        "RUE": "Rue",
+        "JTE": "Jetée",
+        "QUAI": "Quai",
+        "COR": "Corniche",
+        "MTE": "Montée",
+        "ALL": "Allée",
+        "HAM": "Hameau",
+        "SQ": "Square",
+        "CHE": "Chemin",
+        "PL": "Place",
+        "PAS": "Pas (sage)",
+        "IMP": "Impasse",
+        "TRT": "Tertre",
+        "ECA": "Ecart",
+        "GR": "Grand Rue",
+        "BD": "Boulevard",
+        "CAR": "Carrefour",
+        "PRO": "Promenade",
+        "TPL": "Terre-Plein"
+      }
+    }
+  },
+  "PersonnePhysique/ICP/P04/P04.10": {
+    "code": "P04.10",
+    "maxTaille": 38,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "PersonnePhysique/NAP/P21": {
+    "code": "P21",
+    "minTaille": 1,
+    "maxTaille": 26,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "obligatoire": true,
+    "valeurParDefaut": "Française"
+  },
+  "PersonnePhysique/ICP/P04/P04.14": {
+    "code": "P04.14",
+    "maxTaille": 38,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "PersonnePhysique/ICP/P04/P04.13": {
+    "code": "P04.13",
+    "minTaille": 1,
+    "maxTaille": 32,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "PersonnePhysique/ICP/P04/P04.12": {
+    "code": "P04.12",
+    "maxTaille": 32,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Service/SIF/C40/C40.3/C40.3.12": {
+    "code": "C40.3.12",
+    "maxTaille": 32,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Service/SIF/C40/C40.3/C40.3.11": {
+    "code": "C40.3.11",
+    "maxTaille": 4,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "donneeReference": {
+      "classe": {
+        "code": "TYPE_DE_VOIE",
+        "type": "CFE"
+      },
+      "liste": {
+        "VLA": "Villa",
+        "CRS": "Cours",
+        "TRA": "Traverse",
+        "AV": "Avenue",
+        "RTE": "Route",
+        "RUE": "Rue",
+        "JTE": "Jetée",
+        "QUAI": "Quai",
+        "COR": "Corniche",
+        "MTE": "Montée",
+        "ALL": "Allée",
+        "HAM": "Hameau",
+        "SQ": "Square",
+        "CHE": "Chemin",
+        "PL": "Place",
+        "PAS": "Pas (sage)",
+        "IMP": "Impasse",
+        "TRT": "Tertre",
+        "ECA": "Ecart",
+        "GR": "Grand Rue",
+        "BD": "Boulevard",
+        "CAR": "Carrefour",
+        "PRO": "Promenade",
+        "TPL": "Terre-Plein"
+      }
+    }
+  },
+  "Service/SIF/C40/C40.3/C40.3.10": {
+    "code": "C40.3.10",
+    "maxTaille": 38,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "PersonnePhysique/GCS/MSS/A31/A31.1": {
+    "code": "A31.1",
+    "minTaille": 1,
+    "maxTaille": 1,
+    "obligatoire": true,
+    "donneeReference": {
+      "classe": {
+        "code": "OUI_NON",
+        "type": "CFE"
+      },
+      "liste": {
+        "N": "Non",
+        "O": "Oui"
+      }
+    }
+  },
+  "Entreprise/Etablissement/ICE/E09": {
+    "code": "E09",
+    "maxTaille": 100,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Service/EDF/C10/C10.2": {
+    "code": "C10.2",
+    "maxTaille": -1,
+    "pattern": "....-..-..",
+    "obligatoire": true
+  },
+  "Service/EDF/C10/C10.1": {
+    "code": "C10.1",
+    "maxTaille": -1,
+    "pattern": "(([0]{1}[1-9]{1})|([1-9]{1}\\d{1}))(P|M|F)",
+    "obligatoire": true
+  },
+  "Service/ADF/C36": {
+    "code": "C36",
+    "maxTaille": 100,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "obligatoire": true
+  },
+  "PersonnePhysique/ICP/P04/P04.8": {
+    "code": "P04.8",
+    "maxTaille": 9,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "donneeReference": {
+      "classe": {
+        "code": "CODE_POSTAL"
+      }
+    }
+  },
+  "PersonnePhysique/ICP/P04/P04.7": {
+    "code": "P04.7",
+    "maxTaille": 8,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "PersonnePhysique/ICP/P04/P04.9": {
+    "code": "P04.9",
+    "maxTaille": 32,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "PersonnePhysique/ICP/P04/P04.3": {
+    "code": "P04.3",
+    "maxTaille": -1,
+    "pattern": "((2A|2B|[0-2]{1}[1-9]{1}|10|[3-8]{1}\\d{1}|[9]{1}[0-5]{1})\\d{3})|(97[1-8]{1}\\d{2})|(98[4-9]\\d{2})|(99[1-5]\\d{2})|99998",
+    "obligatoire": true,
+    "donneeReference": {
+      "classe": {
+        "code": "CODE_GEO"
+      }
+    }
+  },
+  "PersonnePhysique/ICP/P04/P04.5": {
+    "code": "P04.5",
+    "maxTaille": 9,
+    "pattern": "[\\d\\sAaà\\-]*"
+  },
+  "PersonnePhysique/ICP/P04/P04.6": {
+    "code": "P04.6",
+    "minTaille": 1,
+    "maxTaille": 1,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z]",
+    "donneeReference": {
+      "classe": {
+        "code": "INDICE_REPETITION",
+        "type": "CFE"
+      },
+      "liste": {
+        "D": "D",
+        "E": "E",
+        "F": "F",
+        "G": "G",
+        "A": "A",
+        "B": "B (Bis)",
+        "C": "C (Quarter",
+        "L": "L",
+        "M": "M",
+        "N": "N",
+        "O": "O",
+        "H": "H",
+        "I": "I",
+        "J": "J",
+        "K": "K",
+        "U": "U",
+        "T": "T (Ter)",
+        "W": "W",
+        "V": "V",
+        "Q": "Q (Quinquies)",
+        "P": "P",
+        "S": "S",
+        "R": "R",
+        "Y": "Y",
+        "X": "X",
+        "Z": "Z"
+      }
+    }
+  },
+  "PersonnePhysique/GCS/JES/A30/A30.1": {
+    "code": "A30.1",
+    "maxTaille": -1,
+    "pattern": "((2A|2B|[0-2]{1}[1-9]{1}|10|[3-8]{1}\\d{1}|[9]{1}[0-5]{1})\\d{3})|(97[1-8]{1}\\d{2})|(98[4-9]\\d{2})|(99[1-5]\\d{2})|99998",
+    "obligatoire": true,
+    "donneeReference": {
+      "classe": {
+        "code": "CODE_GEO"
+      }
+    }
+  },
+  "PersonnePhysique/GCS/JES/A30/A30.2": {
+    "code": "A30.2",
+    "minTaille": 1,
+    "maxTaille": 32,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "obligatoire": true
+  },
+  "PersonnePhysique/GCS/JES/A30/A30.3": {
+    "code": "A30.3",
+    "minTaille": 1,
+    "maxTaille": 10,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "obligatoire": true
+  },
+  "PersonnePhysique/GCS/JES/A30/A30.4": {
+    "code": "A30.4",
+    "maxTaille": -1,
+    "pattern": "....-..-..",
+    "obligatoire": true
+  },
+  "PersonnePhysique/ICP/P02/P02.1": {
+    "code": "P02.1",
+    "maxTaille": 100,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\s\\-']*"
+  },
+  "PersonnePhysique/GCS/SNS/A24/A24.2": {
+    "code": "A24.2",
+    "maxTaille": -1,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "donneeReference": {
+      "classe": {
+        "code": "STATUT_EXERCICE",
+        "type": "CFE"
+      },
+      "liste": {
+        "2": "Salarié agricole",
+        "1": "Salarié",
+        "A": "Non salarié non agricole",
+        "B": "Retraité",
+        "C": "Pensionné invalidité",
+        "9": "Autre",
+        "8": "Retraité pensionné"
+      }
+    }
+  },
+  "PersonnePhysique/GCS/SNS/A24/A24.1": {
+    "code": "A24.1",
+    "minTaille": 1,
+    "maxTaille": 1,
+    "obligatoire": true,
+    "donneeReference": {
+      "classe": {
+        "code": "OUI_NON",
+        "type": "CFE"
+      },
+      "liste": {
+        "N": "Non",
+        "O": "Oui"
+      }
+    }
+  },
+  "PersonnePhysique/GCS/SNS/A24/A24.3": {
+    "code": "A24.3",
+    "maxTaille": 40,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Entreprise/OVU/U42": {
+    "code": "U42",
+    "minTaille": 1,
+    "maxTaille": 1,
+    "obligatoire": true,
+    "donneeReference": {
+      "classe": {
+        "code": "OUI_NON",
+        "type": "CFE"
+      },
+      "liste": {
+        "N": "Non",
+        "O": "Oui"
+      }
+    }
+  },
+  "PersonnePhysique/GCS/MSS/A31/A31.2": {
+    "code": "A31.2",
+    "maxTaille": -1,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "valeurParDefaut": "M",
+    "donneeReference": {
+      "classe": {
+        "code": "PERIOD_VERSEMENT",
+        "type": "CFE"
+      },
+      "liste": {
+        "T": "Trimestriel",
+        "M": "Mensuel"
+      }
+    }
+  },
+  "Entreprise/CPU/U21": {
+    "code": "U21",
+    "maxTaille": 840,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Service/SIF/C40/C40.2": {
+    "code": "C40.2",
+    "maxTaille": 20,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Service/ADF/C37/C37.3": {
+    "code": "C37.3",
+    "maxTaille": -1,
+    "pattern": "((2A|2B|[0-2]{1}[1-9]{1}|10|[3-8]{1}\\d{1}|[9]{1}[0-5]{1})\\d{3})|(97[1-8]{1}\\d{2})|(98[4-9]\\d{2})|(99[1-5]\\d{2})|99998",
+    "obligatoire": true,
+    "donneeReference": {
+      "classe": {
+        "code": "CODE_GEO"
+      }
+    }
+  },
+  "Service/SIF/C40/C40.1": {
+    "code": "C40.1",
+    "maxTaille": 120,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "obligatoire": true
+  },
+  "Service/SIF/C43": {
+    "code": "C43",
+    "maxTaille": 300,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Service/SIF/C40/C40.3/C40.3.9": {
+    "code": "C40.3.9",
+    "maxTaille": 32,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Service/SIF/C40/C40.3/C40.3.8": {
+    "code": "C40.3.8",
+    "maxTaille": 9,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "donneeReference": {
+      "classe": {
+        "code": "CODE_POSTAL"
+      }
+    }
+  },
+  "Service/SIF/C45": {
+    "code": "C45",
+    "minTaille": 1,
+    "maxTaille": 1,
+    "donneeReference": {
+      "classe": {
+        "code": "OUI_NON",
+        "type": "CFE"
+      },
+      "liste": {
+        "N": "Non",
+        "O": "Oui"
+      }
+    }
+  },
+  "Service/SIF/C40/C40.3/C40.3.7": {
+    "code": "C40.3.7",
+    "maxTaille": 8,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Service/SIF/C40/C40.3/C40.3.6": {
+    "code": "C40.3.6",
+    "minTaille": 1,
+    "maxTaille": 1,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z]",
+    "donneeReference": {
+      "classe": {
+        "code": "INDICE_REPETITION",
+        "type": "CFE"
+      },
+      "liste": {
+        "D": "D",
+        "E": "E",
+        "F": "F",
+        "G": "G",
+        "A": "A",
+        "B": "B (Bis)",
+        "C": "C (Quarter",
+        "L": "L",
+        "M": "M",
+        "N": "N",
+        "O": "O",
+        "H": "H",
+        "I": "I",
+        "J": "J",
+        "K": "K",
+        "U": "U",
+        "T": "T (Ter)",
+        "W": "W",
+        "V": "V",
+        "Q": "Q (Quinquies)",
+        "P": "P",
+        "S": "S",
+        "R": "R",
+        "Y": "Y",
+        "X": "X",
+        "Z": "Z"
+      }
+    }
+  },
+  "Service/IDF/C05": {
+    "code": "C05",
+    "minTaille": 1,
+    "maxTaille": 1,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "obligatoire": true,
+    "donneeReference": {
+      "classe": {
+        "code": "TYPE_LIASSE",
+        "type": "CFE"
+      },
+      "liste": {
+        "D": "Mention d’office origine RCS",
+        "E": "Entreprise étrangère employeur sans établissement en France",
+        "G": "sociétés civiles, SEL, GIE-GEIE, …",
+        "A": "Agricole",
+        "B": "Batellerie",
+        "C": "Commerce",
+        "L": "Prof. Libérale",
+        "M": "Artisan",
+        "N": "Mention d’office origine RM",
+        "I": "Impôts",
+        "S": "Associations",
+        "R": "Agent commercia",
+        "Y": "Commerçant autoentrepreneur",
+        "X": "Autre profession autoentrepreneur",
+        "Z": "Artisan autoentrepreneur"
+      }
+    }
+  },
+  "PersonnePhysique/DAP/P76/P76.3": {
+    "code": "P76.3",
+    "maxTaille": 35,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "obligatoire": true
+  },
+  "PersonnePhysique/DAP/P76/P76.2": {
+    "code": "P76.2",
+    "minTaille": 1,
+    "maxTaille": 1,
+    "pattern": "[\\d]*",
+    "obligatoire": true,
+    "donneeReference": {
+      "classe": {
+        "code": "NOM_REGISTRE",
+        "type": "CFE"
+      },
+      "liste": {
+        "3": "RSEIRL",
+        "2": "RM",
+        "1": "RCS",
+        "5": "RA",
+        "4": "RSAC"
+      }
+    }
+  },
+  "PersonnePhysique/DAP/P76/P76.1": {
+    "code": "P76.1",
+    "maxTaille": 120,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "obligatoire": true
+  },
+  "Service/SIF/C40/C40.3/C40.3.5": {
+    "code": "C40.3.5",
+    "maxTaille": 9,
+    "pattern": "[\\d\\sAaà\\-]*"
+  },
+  "Service/SIF/C40/C40.3/C40.3.13": {
+    "code": "C40.3.13",
+    "minTaille": 1,
+    "maxTaille": 32,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Service/SIF/C40/C40.3/C40.3.3": {
+    "code": "C40.3.3",
+    "maxTaille": -1,
+    "pattern": "((2A|2B|[0-2]{1}[1-9]{1}|10|[3-8]{1}\\d{1}|[9]{1}[0-5]{1})\\d{3})|(97[1-8]{1}\\d{2})|(98[4-9]\\d{2})|(99[1-5]\\d{2})|99998",
+    "obligatoire": true,
+    "donneeReference": {
+      "classe": {
+        "code": "CODE_GEO"
+      }
+    }
+  },
+  "PersonnePhysique/GCS/SCS/A53/A53.4": {
+    "code": "A53.4",
+    "minTaille": 1,
+    "maxTaille": 1,
+    "obligatoire": true,
+    "donneeReference": {
+      "classe": {
+        "code": "OUI_NON",
+        "type": "CFE"
+      },
+      "liste": {
+        "N": "Non",
+        "O": "Oui"
+      }
+    }
+  },
+  "PersonnePhysique/SMP/P25/P25.2": {
+    "code": "P25.2",
+    "maxTaille": 100,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\s\\-']*",
+    "obligatoire": true
+  },
+  "PersonnePhysique/SMP/P25/P25.4": {
+    "code": "P25.4",
+    "maxTaille": 100,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\s\\-']*"
+  },
+  "PersonnePhysique/SMP/P45": {
+    "code": "P45",
+    "minTaille": 1,
+    "maxTaille": 1,
+    "donneeReference": {
+      "classe": {
+        "code": "OUI",
+        "type": "CFE"
+      },
+      "liste": {
+        "O": "Oui"
+      }
+    }
+  },
+  "PersonnePhysique/SMP/P25/P25.3": {
+    "code": "P25.3",
+    "maxTaille": 20,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\s\\-']*",
+    "obligatoire": true
+  },
+  "PersonnePhysique/SMP/P40": {
+    "code": "P40",
+    "maxTaille": 1,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "donneeReference": {
+      "classe": {
+        "code": "SITUAT_CONJOINT",
+        "type": "CFE"
+      },
+      "liste": {
+        "S": "Suppression du conjoint collaborateur",
+        "O": "présence d’un conjoint collaborateur"
+      }
+    }
+  },
+  "Entreprise/SIU/U11/U11.11": {
+    "code": "U11.11",
+    "maxTaille": 4,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "donneeReference": {
+      "classe": {
+        "code": "TYPE_DE_VOIE",
+        "type": "CFE"
+      },
+      "liste": {
+        "VLA": "Villa",
+        "CRS": "Cours",
+        "TRA": "Traverse",
+        "AV": "Avenue",
+        "RTE": "Route",
+        "RUE": "Rue",
+        "JTE": "Jetée",
+        "QUAI": "Quai",
+        "COR": "Corniche",
+        "MTE": "Montée",
+        "ALL": "Allée",
+        "HAM": "Hameau",
+        "SQ": "Square",
+        "CHE": "Chemin",
+        "PL": "Place",
+        "PAS": "Pas (sage)",
+        "IMP": "Impasse",
+        "TRT": "Tertre",
+        "ECA": "Ecart",
+        "GR": "Grand Rue",
+        "BD": "Boulevard",
+        "CAR": "Carrefour",
+        "PRO": "Promenade",
+        "TPL": "Terre-Plein"
+      }
+    }
+  },
+  "Entreprise/SIU/U11/U11.10": {
+    "code": "U11.10",
+    "maxTaille": 38,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "PersonnePhysique/ICP/P03/P03.3": {
+    "code": "P03.3",
+    "maxTaille": 38,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "PersonnePhysique/ICP/P03/P03.4": {
+    "code": "P03.4",
+    "minTaille": 1,
+    "maxTaille": 32,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Entreprise/Etablissement/ICE/E02/E02.9": {
+    "code": "E02.9",
+    "maxTaille": 32,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "PersonnePhysique/ICP/P03/P03.1": {
+    "code": "P03.1",
+    "maxTaille": -1,
+    "pattern": "....-..-..",
+    "obligatoire": true
+  },
+  "PersonnePhysique/ICP/P03/P03.2": {
+    "code": "P03.2",
+    "maxTaille": -1,
+    "pattern": "((2A|2B|[0-2]{1}[1-9]{1}|10|[3-8]{1}\\d{1}|[9]{1}[0-5]{1})\\d{3})|(97[1-8]{1}\\d{2})|(98[4-9]\\d{2})|(99[1-5]\\d{2})|99998",
+    "obligatoire": true,
+    "donneeReference": {
+      "classe": {
+        "code": "CODE_GEO"
+      }
+    }
+  },
+  "Entreprise/Etablissement/ICE/E02/E02.8": {
+    "code": "E02.8",
+    "maxTaille": 9,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "donneeReference": {
+      "classe": {
+        "code": "CODE_POSTAL"
+      }
+    }
+  },
+  "Entreprise/Etablissement/ICE/E02/E02.7": {
+    "code": "E02.7",
+    "maxTaille": 8,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Entreprise/Etablissement/ICE/E02/E02.6": {
+    "code": "E02.6",
+    "minTaille": 1,
+    "maxTaille": 1,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z]",
+    "donneeReference": {
+      "classe": {
+        "code": "INDICE_REPETITION",
+        "type": "CFE"
+      },
+      "liste": {
+        "D": "D",
+        "E": "E",
+        "F": "F",
+        "G": "G",
+        "A": "A",
+        "B": "B (Bis)",
+        "C": "C (Quarter",
+        "L": "L",
+        "M": "M",
+        "N": "N",
+        "O": "O",
+        "H": "H",
+        "I": "I",
+        "J": "J",
+        "K": "K",
+        "U": "U",
+        "T": "T (Ter)",
+        "W": "W",
+        "V": "V",
+        "Q": "Q (Quinquies)",
+        "P": "P",
+        "S": "S",
+        "R": "R",
+        "Y": "Y",
+        "X": "X",
+        "Z": "Z"
+      }
+    }
+  },
+  "Entreprise/Etablissement/ICE/E02/E02.5": {
+    "code": "E02.5",
+    "maxTaille": 9,
+    "pattern": "[\\d\\sAaà\\-]*"
+  },
+  "Entreprise/Etablissement/ICE/E02/E02.3": {
+    "code": "E02.3",
+    "maxTaille": -1,
+    "pattern": "((2A|2B|[0-2]{1}[1-9]{1}|10|[3-8]{1}\\d{1}|[9]{1}[0-5]{1})\\d{3})|(97[1-8]{1}\\d{2})|(98[4-9]\\d{2})|(99[1-5]\\d{2})|99998",
+    "obligatoire": true,
+    "donneeReference": {
+      "classe": {
+        "code": "CODE_GEO"
+      }
+    }
+  },
+  "Entreprise/SIU/U11/U11.13": {
+    "code": "U11.13",
+    "minTaille": 1,
+    "maxTaille": 32,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Entreprise/SIU/U11/U11.12": {
+    "code": "U11.12",
+    "maxTaille": 32,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "PersonnePhysique/DAP/P76/P76.4": {
+    "code": "P76.4",
+    "minTaille": 9,
+    "maxTaille": 9,
+    "pattern": "[\\d]*",
+    "obligatoire": true
+  },
+  "Entreprise/Etablissement/ICE/E02/E02.10": {
+    "code": "E02.10",
+    "maxTaille": 38,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "PersonnePhysique/ICP/P01/P01.2": {
+    "code": "P01.2",
+    "maxTaille": 100,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\s\\-']*",
+    "obligatoire": true
+  },
+  "Service/ADF/C37/C37.9": {
+    "code": "C37.9",
+    "maxTaille": 32,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Service/ADF/C37/C37.14": {
+    "code": "C37.14",
+    "maxTaille": 38,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "PersonnePhysique/ICP/P01/P01.1": {
+    "code": "P01.1",
+    "minTaille": 1,
+    "maxTaille": 1,
+    "pattern": "[\\d]*",
+    "donneeReference": {
+      "classe": {
+        "code": "TITRE_CIVILITE",
+        "type": "CFE"
+      },
+      "liste": {
+        "2": "Féminin",
+        "1": "Masculin"
+      }
+    }
+  },
+  "PersonnePhysique/ICP/P01/P01.3": {
+    "code": "P01.3",
+    "maxTaille": 20,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\s\\-']*",
+    "obligatoire": true
+  },
+  "Service/ADF/C37/C37.6": {
+    "code": "C37.6",
+    "minTaille": 1,
+    "maxTaille": 1,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z]",
+    "donneeReference": {
+      "classe": {
+        "code": "INDICE_REPETITION",
+        "type": "CFE"
+      },
+      "liste": {
+        "D": "D",
+        "E": "E",
+        "F": "F",
+        "G": "G",
+        "A": "A",
+        "B": "B (Bis)",
+        "C": "C (Quarter",
+        "L": "L",
+        "M": "M",
+        "N": "N",
+        "O": "O",
+        "H": "H",
+        "I": "I",
+        "J": "J",
+        "K": "K",
+        "U": "U",
+        "T": "T (Ter)",
+        "W": "W",
+        "V": "V",
+        "Q": "Q (Quinquies)",
+        "P": "P",
+        "S": "S",
+        "R": "R",
+        "Y": "Y",
+        "X": "X",
+        "Z": "Z"
+      }
+    }
+  },
+  "Service/ADF/C37/C37.5": {
+    "code": "C37.5",
+    "maxTaille": 9,
+    "pattern": "[\\d\\sAaà\\-]*"
+  },
+  "Service/ADF/C37/C37.8": {
+    "code": "C37.8",
+    "maxTaille": 9,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "donneeReference": {
+      "classe": {
+        "code": "CODE_POSTAL"
+      }
+    }
+  },
+  "Service/ADF/C37/C37.7": {
+    "code": "C37.7",
+    "maxTaille": 8,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Service/ADF/C37/C37.11": {
+    "code": "C37.11",
+    "maxTaille": 4,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "donneeReference": {
+      "classe": {
+        "code": "TYPE_DE_VOIE",
+        "type": "CFE"
+      },
+      "liste": {
+        "VLA": "Villa",
+        "CRS": "Cours",
+        "TRA": "Traverse",
+        "AV": "Avenue",
+        "RTE": "Route",
+        "RUE": "Rue",
+        "JTE": "Jetée",
+        "QUAI": "Quai",
+        "COR": "Corniche",
+        "MTE": "Montée",
+        "ALL": "Allée",
+        "HAM": "Hameau",
+        "SQ": "Square",
+        "CHE": "Chemin",
+        "PL": "Place",
+        "PAS": "Pas (sage)",
+        "IMP": "Impasse",
+        "TRT": "Tertre",
+        "ECA": "Ecart",
+        "GR": "Grand Rue",
+        "BD": "Boulevard",
+        "CAR": "Carrefour",
+        "PRO": "Promenade",
+        "TPL": "Terre-Plein"
+      }
+    }
+  },
+  "Service/ADF/C37/C37.10": {
+    "code": "C37.10",
+    "maxTaille": 38,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Service/ADF/C37/C37.13": {
+    "code": "C37.13",
+    "minTaille": 1,
+    "maxTaille": 32,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Service/ADF/C37/C37.12": {
+    "code": "C37.12",
+    "maxTaille": 32,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  }
+}

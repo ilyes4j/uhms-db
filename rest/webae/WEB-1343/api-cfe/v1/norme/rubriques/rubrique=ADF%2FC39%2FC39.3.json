@@ -1,0 +1,167 @@
+{
+  "Service/SIF/C43": {
+    "code": "C43",
+    "maxTaille": 300,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Service/SIF/C40/C40.3/C40.3.9": {
+    "code": "C40.3.9",
+    "maxTaille": 32,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Service/SIF/C40/C40.3/C40.3.8": {
+    "code": "C40.3.8",
+    "maxTaille": 9,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "donneeReference": {
+      "classe": {
+        "code": "CODE_POSTAL"
+      }
+    }
+  },
+  "Service/SIF/C40/C40.3/C40.3.7": {
+    "code": "C40.3.7",
+    "maxTaille": 8,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Service/SIF/C45": {
+    "code": "C45",
+    "minTaille": 1,
+    "maxTaille": 1,
+    "donneeReference": {
+      "classe": {
+        "code": "OUI_NON",
+        "type": "CFE"
+      },
+      "liste": {
+        "N": "Non",
+        "O": "Oui"
+      }
+    }
+  },
+  "Service/SIF/C40/C40.3/C40.3.6": {
+    "code": "C40.3.6",
+    "minTaille": 1,
+    "maxTaille": 1,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z]",
+    "donneeReference": {
+      "classe": {
+        "code": "INDICE_REPETITION",
+        "type": "CFE"
+      },
+      "liste": {
+        "D": "D",
+        "E": "E",
+        "F": "F",
+        "G": "G",
+        "A": "A",
+        "B": "B (Bis)",
+        "C": "C (Quarter",
+        "L": "L",
+        "M": "M",
+        "N": "N",
+        "O": "O",
+        "H": "H",
+        "I": "I",
+        "J": "J",
+        "K": "K",
+        "U": "U",
+        "T": "T (Ter)",
+        "W": "W",
+        "V": "V",
+        "Q": "Q (Quinquies)",
+        "P": "P",
+        "S": "S",
+        "R": "R",
+        "Y": "Y",
+        "X": "X",
+        "Z": "Z"
+      }
+    }
+  },
+  "Service/ADF/C39/C39.3": {
+    "code": "C39.3",
+    "maxTaille": 80,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\p{N}_\\-]+(\\.(?![×Þß÷þø])[a-zÀ-ÿA-Z\\p{N}_\\-]+)*@(?![×Þß÷þø])[a-zÀ-ÿA-Z\\p{N}_\\-]+(\\.(?![×Þß÷þø])[a-zÀ-ÿA-Z\\p{N}_\\-]+)+"
+  },
+  "Service/SIF/C40/C40.3/C40.3.5": {
+    "code": "C40.3.5",
+    "maxTaille": 9,
+    "pattern": "[\\d\\sAaà\\-]*"
+  },
+  "Service/SIF/C40/C40.3/C40.3.13": {
+    "code": "C40.3.13",
+    "minTaille": 1,
+    "maxTaille": 32,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Service/SIF/C40/C40.3/C40.3.3": {
+    "code": "C40.3.3",
+    "maxTaille": -1,
+    "pattern": "((2A|2B|[0-2]{1}[1-9]{1}|10|[3-8]{1}\\d{1}|[9]{1}[0-5]{1})\\d{3})|(97[1-8]{1}\\d{2})|(98[4-9]\\d{2})|(99[1-5]\\d{2})|99998",
+    "obligatoire": true,
+    "donneeReference": {
+      "classe": {
+        "code": "CODE_GEO"
+      }
+    }
+  },
+  "Service/SIF/C40/C40.2": {
+    "code": "C40.2",
+    "maxTaille": 20,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Service/SIF/C40/C40.3/C40.3.12": {
+    "code": "C40.3.12",
+    "maxTaille": 32,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Service/SIF/C40/C40.3/C40.3.11": {
+    "code": "C40.3.11",
+    "maxTaille": 4,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "donneeReference": {
+      "classe": {
+        "code": "TYPE_DE_VOIE",
+        "type": "CFE"
+      },
+      "liste": {
+        "CRS": "Cours",
+        "VLA": "Villa",
+        "TRA": "Traverse",
+        "AV": "Avenue",
+        "RTE": "Route",
+        "RUE": "Rue",
+        "COR": "Corniche",
+        "JTE": "Jetée",
+        "QUAI": "Quai",
+        "MTE": "Montée",
+        "ALL": "Allée",
+        "SQ": "Square",
+        "HAM": "Hameau",
+        "CHE": "Chemin",
+        "PL": "Place",
+        "IMP": "Impasse",
+        "TRT": "Tertre",
+        "PAS": "Pas (sage)",
+        "ECA": "Ecart",
+        "GR": "Grand Rue",
+        "BD": "Boulevard",
+        "CAR": "Carrefour",
+        "PRO": "Promenade",
+        "TPL": "Terre-Plein"
+      }
+    }
+  },
+  "Service/SIF/C40/C40.3/C40.3.10": {
+    "code": "C40.3.10",
+    "maxTaille": 38,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Service/SIF/C40/C40.1": {
+    "code": "C40.1",
+    "maxTaille": 120,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "obligatoire": true
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "__HTTP/1.1": "302 302",
+  "__Max-Forwards": "20",
+  "__Via": "1.0 hwi31gin2medserfogw1 ()",
+  "__Connection": "close",
+  "__X-CorrelationID": "Id-8e33c85efaaf488a084182f9 0",
+  "__Access-Control-Allow-Credentials": "true",
+  "__Access-Control-Allow-Headers": "origin, content-type, accept, authorization",
+  "__Access-Control-Allow-Methods": "GET, POST, DELETE, PUT, OPTIONS, HEAD",
+  "__Cache-Control": "no-cache, no-store, must-revalidate",
+  "__Date": "Fri, 22 May 2020 20:18:22 GMT",
+  "__Expires": "0",
+  "__Location": "providerLogin?requestOrigin=response_type%3Did_token%2Btoken%26state%3DZ88iJUEWwb5kWCq2I51uzxM7W91Ekb4t4i4BM4HRHjF%26redirect_uri%3Dhttp%3A%2F%2Flocalhost%3A4200%2Fcallback%3Faction%3Dlogin%26END%3DTRUE%26nonce%3DoVE1lwzN3LW9uEjhu3SDWSWDlGSNonN0rKVo9Y90bZu%26client_id%3Dc4e8e061-54dc-4d0e-b8a7-dae93000d039%26scope%3Dopenid%2Bbeae.api%2Bcfe.norme%2Bcfe.rpa%2Bteledep.declaration%2Bteledep.declarations%2Bteledep.mandat%2Bteledep.paiement%26apm.clientId%3Dc4e8e061-54dc-4d0e-b8a7-dae93000d039%26version%3Dv1",
+  "__P3P": "CP=\"COR CAO PSA OUR\"",
+  "__Pragma": "no-cache",
+  "__Vary": "Accept-Encoding,User-Agent",
+  "__X-Content-Type-Options": "nosniff",
+  "__X-Frame-Options": "DENY",
+  "__X-XSS-Protection": "1; mode=block",
+  "__Content-Type": "text/plain; charset=UTF-8"
+}

@@ -1,0 +1,30 @@
+{
+  "token_bds": "uyo3HvbjNOk6jPf0/K29fwwgkLLGZwAUVBRmkF3v5t7GJnz211CEIIaHulOORwa7f0WCXzc0rziILhOG8aj6+rMyrwd9EAewAN3r4dBYcBnP8Gfmsyk4VSA5hT+Qu/oaPG5Q5mDX5rL0TTlXIgS+CbVnKLOkioEnJFhcR9f26cTRdjC2/bU67SYd58AAH5qE9w/iRHLnOK5DZPxicT1DddtjeT4abCe1CVvDCHNhcomH0UsS/ytLFwJMZ1oOnu73J9HlUCvR79fa4jxUP2DRMeZenE9KNj1e1Qpw6JVX/TskAnTaHikEpw2mAxCQAH7QJ8QYZctj+rgklKiGI8EFDyBKfF3zEhVX16W111A7a4Px6KgiXi8ULosAo1IFI4W2cvt4+QKO62LLZdbxmZULGrlPU8IjtdNJytyNwKuYM2H7OcGuOx6YGFBcuocdXqb7jz+98aP0pIQ+rO/OR1rUZ4L+ArL1l7N19iNrQo5bNh/VVutpU2XCqZ3hO4tbPDubN/46rFEvJJv0dH8rKs12z0PyKUVJJHujik96X/HgLfc=",
+  "contexte": {
+    "contexte_odata": "7BPi7Y5IZur6WYRPZVkNmNOrTWJ2GzLotmQiSTjNhd4XK8HQoUUbiNdCrOlXHb75izXTT1pUtZkxtsEYstpRpHBo4cu9CbkDyjEXywhe54J1tKzUqpvAHiziAjM3D5/QqQHmYgQYo3WOxDjRyJOMSQ==",
+    "mode": "1",
+    "Siret": "00657231700029",
+    "nom": "BERTAUX",
+    "prenom": "JOSIANE",
+    "mail": "cas5-d@atos.fr",
+    "tel": "0202022002",
+    "tel_mobile": "0821132014",
+    "pwdperso": "O",
+    "nni": "242038502900753",
+    "idabo": "A0CtiWgcVfQR5IVGtLUvUXf0",
+    "email_mandataire": "",
+    "coti": {
+      "siret": "00657231700029",
+      "orga": "U527",
+      "cat": "3",
+      "numcot": "527000000203716438",
+      "etat": "R"
+    },
+    "cotisHisto": []
+  },
+  "data": {
+    "Password": "",
+    "NewPassword": "",
+    "NewPasswordC": ""
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "token_bds": "LUgEJVQ8azQDZXtTGle6J2ewd99XmPDCULC8Z5ab19txbCmmTa7gFWDFgHXrkw1d3U87ymFTF+Gkr6TGEhHBm19WkBhzx+03OwPGIz1uiWfRDk+ZiuUGdm76rpVZs4w3hM4cui3Uu3Xpd9b9v/HOFKNJX7U3dSVNo+MeaCqdxUKMgyWZfCgafDzxpEK4e69tkjafSDSdwa/iyhkQZCJHIlfQzrj33jYePAM9wNxtCtBaN54k2jzn/SAsm5cMYW+VP6DL7dit1TlSUHhFoBObL5xPJSFpuun3BQ30WiILTPKlQvfxozH8R8lrVVjO2vTE1spl4ZA14j6bR2iivAzV35aukPrc8SVhwNiv3Q62uaFs31H2Cxox6y3npqNOswJf",
+  "contexte": {
+    "contexte_odata": "bBL+LGPMH7Ig7zSPoj9lxftfN9whiGDxxGMeFaxXXf3QPYtFy9DxCwQyi3MIAXfGsCESDlFCUOFWOSlr58AVhjFZpFtRG4lvJnWWumaukDY=",
+    "mode": "1",
+    "Siret": "",
+    "nom": "TestPréInscritNNI",
+    "prenom": "TestPréInscritNNI",
+    "mail": "testpreinscritnni_1@yopmail.com",
+    "tel": "01 01 01 01 01",
+    "tel_mobile": "06 02 02 02 02",
+    "pwdperso": "O",
+    "nni": "186039935144482",
+    "idabo": "A0ALWv7AikER6r4IAFBWuUUD",
+    "email_mandataire": "",
+    "coti": {
+      "siret": "",
+      "orga": "",
+      "cat": "",
+      "numcot": "",
+      "etat": ""
+    },
+    "cotisHisto": []
+  },
+  "data": {
+    "Password": "",
+    "NewPassword": "",
+    "NewPasswordC": ""
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "__HTTP/1.1": "302 302",
+  "__Location" : "http://localhost:4200/callback?action=logout"
+}

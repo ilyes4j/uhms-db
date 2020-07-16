@@ -1,0 +1,249 @@
+{
+  "PersonnePhysique/DAP/P70": {
+    "code": "P70",
+    "minTaille": 1,
+    "maxTaille": 1,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "obligatoire": true,
+    "donneeReference": {
+      "classe": {
+        "code": "OPTION_EIRL",
+        "type": "CFE"
+      },
+      "liste": {
+        "R": "Reprise d'un patrimoine",
+        "O": "Déclaration initiale"
+      }
+    }
+  },
+  "PersonnePhysique/DAP/P71": {
+    "code": "P71",
+    "maxTaille": 120,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "PersonnePhysique/GCS/MSS/A31/A31.1": {
+    "code": "A31.1",
+    "minTaille": 1,
+    "maxTaille": 1,
+    "obligatoire": true,
+    "donneeReference": {
+      "classe": {
+        "code": "OUI_NON",
+        "type": "CFE"
+      },
+      "liste": {
+        "N": "Non",
+        "O": "Oui"
+      }
+    }
+  },
+  "PersonnePhysique/DAP/P73": {
+    "code": "P73",
+    "maxTaille": 420,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "PersonnePhysique/SMP/P41/P41.4": {
+    "code": "P41.4",
+    "minTaille": 1,
+    "maxTaille": 32,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "PersonnePhysique/SMP/P41/P41.3": {
+    "code": "P41.3",
+    "maxTaille": 38,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "PersonnePhysique/SMP/P41/P41.2": {
+    "code": "P41.2",
+    "maxTaille": -1,
+    "pattern": "((2A|2B|[0-2]{1}[1-9]{1}|10|[3-8]{1}\\d{1}|[9]{1}[0-5]{1})\\d{3})|(97[1-8]{1}\\d{2})|(98[4-9]\\d{2})|(99[1-5]\\d{2})|99998",
+    "obligatoire": true,
+    "donneeReference": {
+      "classe": {
+        "code": "CODE_GEO"
+      }
+    }
+  },
+  "PersonnePhysique/SMP/P41/P41.1": {
+    "code": "P41.1",
+    "maxTaille": -1,
+    "pattern": "....-..-..",
+    "obligatoire": true
+  },
+  "PersonnePhysique/DAP/P76/P76.3": {
+    "code": "P76.3",
+    "maxTaille": 35,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "obligatoire": true
+  },
+  "PersonnePhysique/DAP/P76/P76.2": {
+    "code": "P76.2",
+    "minTaille": 1,
+    "maxTaille": 1,
+    "pattern": "[\\d]*",
+    "obligatoire": true,
+    "donneeReference": {
+      "classe": {
+        "code": "NOM_REGISTRE",
+        "type": "CFE"
+      },
+      "liste": {
+        "3": "RSEIRL",
+        "2": "RM",
+        "1": "RCS",
+        "5": "RA",
+        "4": "RSAC"
+      }
+    }
+  },
+  "PersonnePhysique/DAP/P76/P76.1": {
+    "code": "P76.1",
+    "maxTaille": 120,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "obligatoire": true
+  },
+  "PersonnePhysique/GCS/ISS/A10/A10.1": {
+    "code": "A10.1",
+    "minTaille": 13,
+    "maxTaille": 13,
+    "pattern": "\\d{5}(\\d{2}|2A|2B)\\d{6}",
+    "obligatoire": true
+  },
+  "PersonnePhysique/GCS/ISS/A10/A10.2": {
+    "code": "A10.2",
+    "minTaille": 2,
+    "maxTaille": 2,
+    "pattern": "[\\d]*",
+    "obligatoire": true
+  },
+  "PersonnePhysique/GCS/SCS/A53/A53.4": {
+    "code": "A53.4",
+    "minTaille": 1,
+    "maxTaille": 1,
+    "obligatoire": true,
+    "donneeReference": {
+      "classe": {
+        "code": "OUI_NON",
+        "type": "CFE"
+      },
+      "liste": {
+        "N": "Non",
+        "O": "Oui"
+      }
+    }
+  },
+  "PersonnePhysique/GCS/SCS/A55/A55.1": {
+    "code": "A55.1",
+    "minTaille": 13,
+    "maxTaille": 13,
+    "pattern": "\\d{5}(\\d{2}|2A|2B)\\d{6}",
+    "obligatoire": true
+  },
+  "PersonnePhysique/DAP/P76/P76.4": {
+    "code": "P76.4",
+    "minTaille": 9,
+    "maxTaille": 9,
+    "pattern": "[\\d]*",
+    "obligatoire": true
+  },
+  "Entreprise/OVU/U42": {
+    "code": "U42",
+    "minTaille": 1,
+    "maxTaille": 1,
+    "obligatoire": true,
+    "donneeReference": {
+      "classe": {
+        "code": "OUI_NON",
+        "type": "CFE"
+      },
+      "liste": {
+        "N": "Non",
+        "O": "Oui"
+      }
+    }
+  },
+  "PersonnePhysique/GCS/MSS/A31/A31.2": {
+    "code": "A31.2",
+    "maxTaille": -1,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "valeurParDefaut": "M",
+    "donneeReference": {
+      "classe": {
+        "code": "PERIOD_VERSEMENT",
+        "type": "CFE"
+      },
+      "liste": {
+        "T": "Trimestriel",
+        "M": "Mensuel"
+      }
+    }
+  },
+  "PersonnePhysique/GCS/SCS/A55/A55.2": {
+    "code": "A55.2",
+    "minTaille": 2,
+    "maxTaille": 2,
+    "pattern": "[\\d]*",
+    "obligatoire": true
+  },
+  "PersonnePhysique/SMP/P25/P25.2": {
+    "code": "P25.2",
+    "maxTaille": 100,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\s\\-']*",
+    "obligatoire": true
+  },
+  "Entreprise/OFU/U74": {
+    "code": "U74",
+    "minTaille": 1,
+    "maxTaille": 1,
+    "donneeReference": {
+      "classe": {
+        "code": "OUI_NON",
+        "type": "CFE"
+      },
+      "liste": {
+        "N": "Non",
+        "O": "Oui"
+      }
+    }
+  },
+  "PersonnePhysique/SMP/P25/P25.4": {
+    "code": "P25.4",
+    "maxTaille": 100,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\s\\-']*"
+  },
+  "PersonnePhysique/SMP/P25/P25.3": {
+    "code": "P25.3",
+    "maxTaille": 20,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\s\\-']*",
+    "obligatoire": true
+  },
+  "PersonnePhysique/SMP/P45": {
+    "code": "P45",
+    "minTaille": 1,
+    "maxTaille": 1,
+    "donneeReference": {
+      "classe": {
+        "code": "OUI",
+        "type": "CFE"
+      },
+      "liste": {
+        "O": "Oui"
+      }
+    }
+  },
+  "PersonnePhysique/SMP/P40": {
+    "code": "P40",
+    "maxTaille": 1,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "donneeReference": {
+      "classe": {
+        "code": "SITUAT_CONJOINT",
+        "type": "CFE"
+      },
+      "liste": {
+        "S": "Suppression du conjoint collaborateur",
+        "O": "présence d’un conjoint collaborateur"
+      }
+    }
+  }
+}

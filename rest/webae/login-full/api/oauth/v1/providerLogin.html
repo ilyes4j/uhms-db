@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Mon compte - Autoentrepreneur.urssaf.fr</title>
+    <!-- Favicon pour les différentes cibles, idéalement, ces fichiers devraient être à la racine du site -->
+    <link rel="apple-touch-icon" sizes="180x180" href="include/WebAE/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="include/WebAE/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="include/WebAE/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="include/WebAE/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="include/WebAE/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <!-- Si les fichiers de favicon sont à la racine du site, la ligne suivante n'est pas nécessaire -->
+    <link rel="shortcut icon" href="include/WebAE/img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <!-- Si les fichiers de favicon sont à la racine du site, la ligne suivante n'est pas nécessaire -->
+    <meta name="msapplication-config" content="include/WebAE/img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Meta description pour améliorer le référencement -->
+    <meta name="description" content="Créez votre compte en quelques clics, puis connectez-vous pour accéder à tous les services en ligne réservés aux auto-entrepreneurs.">
+    <!-- La ligne suivante désactive l'insertion automatique de lien sur mobile/tablette pour les grands nombres (qui sont considérés, à tort, comme des numéros de téléphone) -->
+    <meta name="format-detection" content="telephone=no">
+    <!-- Le fichier bootstrap.min.css est celui de la distribution de bootstrap 4.1.1 par défaut, mais pour que les impressions fonctionnent correctement avec Edge, il ne faut pas mettre l'attribut integrity -->
+    <link rel="stylesheet" href="include/WebAE/css/bootstrap.min.css">
+    <!-- Les fichiers script peuvent être chargés en bas de page -->
+    <script src="include/WebAE/js/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="></script>
+    <!-- Le fichier bootstrap.min.js est celui de la distribution de bootstrap 4.1.1 par défaut -->
+    <script src="include/WebAE/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"></script>
+    <!-- Scripts pour gérer l'autocomplétion, notamment pour le champ de recherche -->
+    <script src="include/WebAE/js/aria-utils.js"></script>
+    <script src="include/WebAE/js/listbox-combobox.js"></script>
+    <script src="include/WebAE/js/jquery.bootstrap-modal-maker.js"></script>
+    <!-- ATTENTION : bien garder le CSS lautoentrepreneur en dernier car il surcharge les valeurs par défaut des autres librairies -->
+    <link rel="stylesheet" href="include/WebAE/css/lautoentrepreneur.css">
+</head>
+<body>
+<!-- Avertissement pour les navigateurs trop anciens -->
+<!--[if lt IE 9]>
+<div style="background-color: #e00; color: white; padding: 10px; text-align: center; font-weight: bold; z-index: 1000;">
+    Vous utilisez un navigateur trop ancien.<br />Pour profiter pleinement de ce site, nous vous recommandons de <a href="https://www.browser-update.org/fr/update.html" target="_blank" title="mettre à jour votre navigateur - Nouvelle fenêtre" style="color: #000;">mettre à jour votre navigateur</a>.
+</div>
+<![endif]-->
+<!-- Entête : structure commune à toutes les pages - DEBUT -->
+<header>
+    <!-- Entête - boutons d'accès rapide visibles uniquement à la tabulation -->
+    <div class="acces_rapides">
+        <div class="container">
+            <ul class="row navbar-nav flex-sm-row justify-content-sm-between">
+                <li class="nav-item"><a href="#contenu" class="nav-link">Aller au contenu</a></li>
+                <li class="nav-item d-none d-sm-block"><a href="#recherche" class="nav-link">Aller à la recherche</a></li>
+                <li class="nav-item d-none d-sm-block"><a href="#menu" class="nav-link">Aller au menu principal</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--  Entête - Bandeau blanc -->
+    <div class="bandeau_sup">
+        <div class="container">
+            <div class="row header">
+                <!-- Entête - Bandeau blanc : Logo -->
+                <div class="col-5 col-sm-4 bloc_logo">
+                    <a class="navbar-brand align-bottom" href="https://www.autoentrepreneur.urssaf.fr/" title="Retour à l’accueil"><img src="include/WebAE/img/logo-AE.svg" alt="Auto entrepreneur - Un service des Urssaf"></a>
+                </div>
+                <!-- Entête - Bandeau blanc : boutons : bouton mon compte (ou équivalent si connecté) et sur mobile seulement bouton menu -->
+                <div class="col-7 col-sm-8 align-self-sm-end align-self-sm-center text-right bloc_compte mobile_boutons">
+                    <!-- Utilisateur NON connecté - DEBUT -->
+                    <a class="btn" aria-current="page">
+                        <span class="d-none d-sm-inline">Mon compte</span><img src="include/WebAE/img/icones/mon_compte.svg" alt="">
+                    </a>
+                    <!-- Utilisateur NON connecté - FIN -->
+                    <button type="button" class="navbar-toggler btn-menu d-sm-none" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Basculer le menu" onclick="$('#connect').collapse('hide');">
+                        <img src="include/WebAE/img/icones/menu.svg" alt="Menu">
+                    </button>
+                </div>
+            </div>
+            <!-- Entête - Ligne menu principal (3 parcours + question + recherche) -->
+            <div class="navbar navbar-expand-sm menu_hamburger">
+                <div class="navbar-collapse collapse" id="myNavbar">
+                    <div class="d-flex flex-column-reverse flex-sm-column bloc_menu_recherche">
+                        <nav id="menu" class="d-sm-flex align-items-sm-center ligne_menu" aria-label="Menu mobile">
+                            <!-- Entête - Ligne menu principal : 3 parcours -->
+                            <div class="bloc_menu mr-sm-auto">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <!-- Attention : ne pas oublier le code du retour à la ligne "<br..." et ajouter l'attribut aria-current="page" à la section courante -->
+                                        <a href="https://www.autoentrepreneur.urssaf.fr/portail/accueil/sinformer-sur-le-statut/lessentiel-du-statut.html" class="nav-link" >S’informer <br class="d-none d-sm-block d-lg-none">sur le statut</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="https://www.autoentrepreneur.urssaf.fr/portail/accueil/creer-mon-auto-entreprise.html" class="nav-link">Créer <br class="d-none d-sm-block d-lg-none">mon auto-entreprise</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="https://www.autoentrepreneur.urssaf.fr/portail/accueil/gerer-mon-auto-entreprise.html" class="nav-link">Gérer <br class="d-none d-sm-block d-lg-none">mon auto-entreprise</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Entête - Ligne menu principal : une question -->
+                            <div class="bloc_question">
+                                <a href="https://www.autoentrepreneur.urssaf.fr/portail/accueil/une-question.html">
+                                    Une <br class="d-none d-sm-block d-md-none">question<img src="include/WebAE/img/icones/picto_question.svg" alt="">
+                                </a>
+                            </div>
+                        </nav>
+                        <!-- Entête - Ligne menu principal : formulaire recherche sur fond bleu -->
+                        <div class="row ligne_recherche m-0">
+                            <div class="col-sm-10 col-md-8 col-lg-6 m-auto" id="mySearch">
+                                <!-- Voir https://www.w3.org/TR/wai-aria-practices-1.1/examples/combobox/aria1.1pattern/listbox-combo.html (exemple 1) pour gérer l'autocompletion -->
+                                <form role="search" class="form-inline" method="post" name="searchForm" action="https://www.autoentrepreneur.urssaf.fr/portail/accueil/resultats-de-votre-recherche.html">
+                                    <input type="hidden" name="jcrMethodToCall" value="get" />
+                                    <input type="hidden" name="src_originSiteKey" value="siteae"/>
+                                    <div class="combobox-wrapper">
+                                        <div id="recherche-combobox" role="combobox" aria-expanded="false" aria-owns="liste_suggestions_recherche" aria-haspopup="listbox">
+                                            <input type="search" class="form-control rounded" name="src_terms[0].term" id="search" autocomplete="off" placeholder="ex.&nbsp;: demander l'Acre, déclarer et payer mes cotisations..." title="Indiquer les termes à rechercher sur le site (ex.&nbsp;: demander l'Acre, déclarer et payer mes cotisations...)" aria-autocomplete="list" aria-controls="liste_suggestions_recherche"><button type="submit" class="btn rounded-right OK_inline"><img src="include/WebAE/img/icones/loupe_blanc.svg" alt="Lancer la recherche"></button>
+                                            <input name="src_terms[0].applyFilter" value="true" type="hidden">
+                                            <input name="src_terms[0].match" value="all_words" type="hidden">
+                                            <input name="src_terms[0].fields.siteContent" value="true" type="hidden">
+                                            <input name="src_terms[0].fields.tags" value="true" type="hidden">
+                                            <input name="src_terms[0].fields.files" value="true" type="hidden">
+                                        </div>
+                                        <ul id="liste_suggestions_recherche" class="listbox hidden" aria-label="Recherche sur le site" role="listbox">
+                                        </ul>
+                                        <input type="hidden" name="src_sites.values" value="siteae"/>
+                                        <input type="hidden" name="src_sitesForReferences.values" value="systemsite"/>
+                                        <input type="hidden" name="src_languages.values" value="fr"/>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Entête - Zone pour le fil d'Ariane -->
+    <div class="container">
+        <!-- Entête : bloc fil d'Ariane : ATTENTION : mettre les libellés complets, car la coupure se fait grâce au CSS -->
+        <nav class="filAriane" aria-label="Fil d'Ariane">
+            <ol><li><a href="https://www.autoentrepreneur.urssaf.fr/">Accueil</a></li> <li><a aria-current="page">Mon compte</a></li></ol>
+        </nav>
+    </div>
+</header>
+<div class="container">
+    <!-- Entête : structure commune à toutes les pages - FIN -->
+    <main id="contenu" class="connect">
+        <div class="row">
+            <div class="col-sm-6">
+                <div>
+                    <h1>J’ai déjà un compte</h1>
+                    <p>Vous avez créé un compte sur ce nouveau site ou utilisez l’application mobile&nbsp;?</p>
+                    <!-- INTEGR_ARCHIMED : Branchement Form Login -->
+                    <form id="identification" method="post" class="form" action="login">
+                        <label for="compte_id">Courriel ou N<sup>o</sup> de Sécurité sociale (13 chiffres)</label>
+                        <input type="text" class="form-control rounded" id="compte_id" title="Courriel ou No de Sécurité sociale (13 chiffres) - Champ obligatoire" aria-label="Courriel ou No de Sécurité sociale (13 chiffres) - Champ obligatoire" name="identifiant" required>
+                        <label for="compte_mdp">Mot de passe</label>
+                        <input type="password" class="form-control rounded" id="compte_mdp" title="Mot de passe - Champ obligatoire" aria-label="Mot de passe - Champ obligatoire" name="password" required>
+                        <span class="mention"><p>Votre mot de passe doit comporter exactement 8 caractères avec au moins 1 chiffre et 1 lettre sans caractères spéciaux</p></span>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn">Me connecter</button>
+                        </div>
+                        <button type="button" class="btn-link" data-toggle="modal" data-target="#motDePasseOublie" value="J’ai oublié mon mot de passe">&gt; Mot de passe oublié&nbsp;?</button>
+                    </form>
+                </div>
+                <!-- INTEGR_ARCHIMED : Branchement Form Login -->
+                <!--  -->
+                <div class="bloc_net-entreprises">
+                    <div class="bloc_texte_separateur"><span class="texte_separateur">OU</span></div>
+                    <div class="ligne_separatrice"></div>
+                    <p>Vous aviez l’habitude de vous identifier avec votre Siret, nom, prénom et mot de passe&nbsp;?</p>
+                    <!-- zone pour le message d'erreur masquée par défaut -->
+                    <div class="erreur d-none" role="alert"></div>
+
+                    <div class="text-center">
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#login_net-entreprises" aria-controls="login_net-entreprises" aria-expanded="false" aria-label="Afficher le formulaire de connexion Net-Entreprises">
+                            <img src="include/WebAE/img/icones/fleche-jaune.svg" alt=""> <span>Me connecter avec Net-Entreprises.fr</span>
+                        </button>
+                    </div>
+                    <div class="navbar-collapse collapse" id="login_net-entreprises">
+                        <div id="widget_MAG_container"></div>
+                    </div>
+                    <script language="javascript">var link_serveur_netentreprise = "https://test-portail.net-entreprises.fr"; var widget_autoredirect = "https://autoentrepreneurdev.urssaf.fr";</script>
+                    <script type="text/javascript" id="widget_MAG" src="include/WebAE/js/widget.js?idWidget=widget_MAG"></script>
+                </div>
+                <!--  -->
+            </div>
+            <div class="col-sm-6 align-self-sm-start">
+                <div>
+                    <h1>Je n’ai pas encore de compte</h1>
+                    <p>Créez votre compte en quelques clics et bénéficiez de services en ligne dédiés.</p>
+                    <!-- INTEGR_ARCHIMED : Branchement Form Login -->
+                    <form id="creation" class="form" action="https://autoentrepreneurdev.urssaf.fr/portail/accueil/creer-mon-compte.html">
+                        <input type="hidden" name="jcrMethodToCall" value="get"/>
+                        <label for="compte_siret">Siret</label>
+                        <input type="text" class="form-control rounded" id="compte_siret" name="siret" title="Siret - Champ obligatoire" aria-label="Siret - Champ obligatoire" maxlength="14" required>
+                        <label for="compte_nir">N<sup>o</sup>&nbsp;de S&eacute;curit&eacute; sociale (13&nbsp;chiffres)</label>
+                        <input type="text" class="form-control rounded" id="compte_nir" name="nni" title="No de Sécurité sociale (13 chiffres) - Champ obligatoire" aria-label="No de Sécurité sociale (13 chiffres) - Champ obligatoire" maxlength="13" required>
+                        <div class="espace_lien"></div>
+                        <div class="text-center">
+                            <button type="submit" class="btn">Continuer</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Fenêtre modale de mot de passe oublié, il faut essayer de l'insérer en fin de page en descendance directe de body, car si un des parents à une position fixed, il y aura des problèmes de positionnement... -->
+    <!-- Comme on souhaite que l'utilisateur clique sur un des boutons de fermeture avant de passer à l'étape suivante, on définit l'attribut data-backdrop -->
+    <div id="motDePasseOublie" class="modal fade" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="motDePasseOublieLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal" aria-label="Fermer la fenêtre de mot de passe oublié">
+                    <img src="include/WebAE/img/icones/bouton_fermer_onglet_connection.svg" alt="">
+                </button>
+                <!-- INTEGR_ARCHIMED : Branchement Form Login -->
+                <form role="form" class="form motDePasseOublie" action="https://api.clea1.giin.urssaf.fr/micro_entrepreneur/v2/authentification/lostpassword" method="post">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="motDePasseOublieLabel">Mot de passe oublié</h4>
+                    </div>
+                    <div class="modal-body">
+                        <label for="compte_nir_motDePassOublie">N<sup>o</sup>&nbsp;de Sécurité sociale (13 chiffres)</label>
+                        <input id="compte_nir_motDePassOublie" class="form-control rounded" type="text" name="Identifiant" title="No de Sécurité sociale (13 chiffres) - Champ obligatoire" aria-label="No de Sécurité sociale (13 chiffres) - Champ obligatoire" maxlength="13" required>
+                        <label for="compte_email_motDePassOublie">Courriel</label>
+                        <input id="compte_email_motDePassOublie" class="form-control rounded" type="text" name="Email" title="Courriel - Champ obligatoire" aria-label="Courriel - Champ obligatoire" maxlength="320" required>
+                    </div>
+                    <div class="row barre_boutons">
+                        <div class="col-6">
+                            <button type="button" class="btn" data-dismiss="modal">Annuler</button>
+                        </div>
+                        <div class="col-6 text-right">
+                            <input id="action" type="hidden" name="action" value="recuperer" />
+                            <button type="submit" class="btn">Valider</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script language="javascript">var widget_urlOk = "https://login.clea1.giin.urssaf.fr/api/neten/v1/gip-mds/c4e8e061-54dc-4d0e-b8a7-dae93000d039"; var widget_urlKo = "https://login.clea1.giin.urssaf.fr/api/neten/v1/callback/c4e8e061-54dc-4d0e-b8a7-dae93000d039";</script>
+    <script src="include/WebAE/js/mire.js"></script>
+</div>
+
+<!-- Pied de page : identique sur toutes les pages -->
+<!-- Bouton pour remonter en haut de page -->
+<button class="btn retour_haut_page round-circle" onclick='$("html, body").animate({scrollTop : 0}, 400);' title="Retourner en haut de la page">Retourner en haut de la page</button>
+<!-- Pied de page avec les listes de liens -->
+<footer>
+    <div class="bande"></div>
+    <div class="container">
+        <div class="row">
+            <!-- Pied de page : Série de liens n°1/6 -->
+            <div class="col-sm-4 col-lg-2">
+                <h1>Réseau des Urssaf</h1>
+                <ul>
+                    <li><a href="http://www.acoss.fr/home/lacoss-et-les-urssaf/qui-sommes-nous.html" target="_blank" title="L’Acoss, caisse nationale - Nouvelle fenêtre">L’Acoss, caisse nationale</a></li>
+                    <li><a href="http://www.acoss.fr/home/nos-missions.html" target="_blank" title="Nos missions - Nouvelle fenêtre">Nos missions</a></li>
+                    <li><a href="http://www.acoss.fr/home/candidats.html" target="_blank" title="Nos offres d’emploi - Nouvelle fenêtre">Nos offres d’emploi</a></li>
+                </ul>
+            </div>
+            <!-- Pied de page : Série de liens n°2/6 -->
+            <div class="col-sm-4 col-lg-2">
+                <h1>Nos sites web</h1>
+                <ul>
+                    <li><a href="http://www.acoss.fr/" target="_blank" title="Acoss - Nouvelle fenêtre">Acoss</a></li>
+                    <li><a href="https://www.urssaf.fr/" target="_blank" title="Urssaf - Nouvelle fenêtre">Urssaf</a></li>
+                    <li><a href="http://www.cea.urssaf.fr/" target="_blank" title="Cea - Nouvelle fenêtre">Cea</a></li>
+                    <li><a href="https://www.cesu.urssaf.fr/" target="_blank" title="Cesu - Nouvelle fenêtre">Cesu</a></li>
+                    <li><a href="http://www.pajemploi.urssaf.fr/" target="_blank" title="Pajemploi - Nouvelle fenêtre">Pajemploi</a></li>
+                    <li><a href="http://www.tfe.urssaf.fr/" target="_blank" title="Tfe - Nouvelle fenêtre">Tfe</a></li>
+                    <li><a href="http://www.letese.urssaf.fr/" target="_blank" title="Tese - Nouvelle fenêtre">Tese</a></li>
+                    <li><a href="https://www.tpee.urssaf.fr/" target="_blank" title="Tpee - Nouvelle fenêtre">Tpee</a></li>
+                    <li><a href="http://www.net-entreprises.fr/" target="_blank" title="Net-entreprises - Nouvelle fenêtre">Net-entreprises</a></li>
+                    <li><a href="http://www.net-particulier.fr/" target="_blank" title="Net-particulier - Nouvelle fenêtre">Net-particulier</a></li>
+                </ul>
+            </div>
+            <!-- Pied de page : Série de liens n°3/6 -->
+            <div class="col-sm-4 col-lg-2">
+                <h1>Accès direct</h1>
+                <ul>
+                    <li><a href="https://www.autoentrepreneur.urssaf.fr/portail/accueil/sinformer-sur-le-statut/toutes-les-actualites.html">Actualités</a></li>
+                    <li><a href="https://www.autoentrepreneur.urssaf.fr/portail/accueil/une-question/toutes-les-fiches-pratiques.html">Fiches pratiques</a></li>
+                    <li><a href="https://www.autoentrepreneur.urssaf.fr/portail/accueil/sinformer-sur-le-statut/lessentiel-du-statut.html">L’essentiel du statut</a></li>
+                    <li><a href="https://www.autoentrepreneur.urssaf.fr/portail/accueil/une-question/questions-frequentes.html">Questions fréquentes</a></li>
+                </ul>
+            </div>
+            <!-- Pied de page : Série de liens n°4/6 -->
+            <div class="col-sm-4 col-lg-2">
+                <h1>Outils en ligne</h1>
+                <ul>
+                    <li><a href="https://www.autoentrepreneur.urssaf.fr/portail/accueil/creer-mon-auto-entreprise.html">Devenir auto-entrepreneur</a></li>
+                    <li><a href="https://www.autoentrepreneur.urssaf.fr/portail/accueil/lexique.html">Lexique</a></li>
+                </ul>
+            </div>
+            <!-- Pied de page : Série de liens n°5/6 -->
+            <div class="col-sm-4 col-lg-2">
+                <h1>Contact</h1>
+                <ul>
+                    <li><a href="https://www.autoentrepreneur.urssaf.fr/portail/accueil/une-question/nous-contacter/courriel.html">Nous contacter</a></li>
+                </ul>
+            </div>
+            <!-- Pied de page : Série de liens n°6/6 -->
+            <div class="col-sm-4 col-lg-2">
+                <h1>Informations sur le site</h1>
+                <ul>
+                    <li><a href="https://www.autoentrepreneur.urssaf.fr/portail/accueil/accessibilite.html">Accessibilité</a></li>
+                    <li><a href="https://www.autoentrepreneur.urssaf.fr/portail/accueil/mentions-legales.html">Mentions légales</a></li>
+                    <li><a href="https://www.autoentrepreneur.urssaf.fr/portail/accueil/plan-du-site.html">Plan du site</a></li>
+                    <li><a href="http://www.acoss.fr/home/politique-de-confidentialite.html" target="_blank" title="Politique de confidentialité - Nouvelle fenêtre">Politique de confidentialité</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript">
+    // Code pour afficher/masquer la barre de navigation rapide en haut de page
+    $(".acces_rapides a").on("focus", function(){$('.acces_rapides').addClass('visible');});
+    $(".acces_rapides a").on("click blur", function(){$('.acces_rapides').removeClass('visible');});
+
+    // Code pour afficher/masquer le bouton de retour en haut de page
+    $(function() {
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('.retour_haut_page').fadeIn(400);
+            } else {
+                $('.retour_haut_page').fadeOut(400);
+            }
+        });
+    });
+</script>
+</body>
+</html>

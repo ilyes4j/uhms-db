@@ -1,0 +1,129 @@
+{
+  "Entreprise/Etablissement/CAE/E73/E73.1": {
+    "code": "E73.1",
+    "maxTaille": -1,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "obligatoire": true,
+    "donneeReference": {
+      "classe": {
+        "code": "PERMANENCE_ACTIVITE",
+        "type": "CFE"
+      },
+      "liste": {
+        "P": "Permanente",
+        "S": "Saisonnière"
+      }
+    }
+  },
+  "Entreprise/Etablissement/ACE/E71": {
+    "code": "E71",
+    "minTaille": 1,
+    "maxTaille": 140,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "obligatoire": true
+  },
+  "Service/IDF/C05": {
+    "code": "C05",
+    "minTaille": 1,
+    "maxTaille": 1,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "obligatoire": true,
+    "donneeReference": {
+      "classe": {
+        "code": "TYPE_LIASSE",
+        "type": "CFE"
+      },
+      "liste": {
+        "D": "Mention d’office origine RCS",
+        "E": "Entreprise étrangère employeur sans établissement en France",
+        "G": "sociétés civiles, SEL, GIE-GEIE, …",
+        "A": "Agricole",
+        "B": "Batellerie",
+        "C": "Commerce",
+        "L": "Prof. Libérale",
+        "M": "Artisan",
+        "N": "Mention d’office origine RM",
+        "I": "Impôts",
+        "S": "Associations",
+        "R": "Agent commercia",
+        "Y": "Commerçant autoentrepreneur",
+        "X": "Autre profession autoentrepreneur",
+        "Z": "Artisan autoentrepreneur"
+      }
+    }
+  },
+  "Entreprise/Etablissement/ACE/E70": {
+    "code": "E70",
+    "maxTaille": 840,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Entreprise/Etablissement/ICE/E09": {
+    "code": "E09",
+    "maxTaille": 100,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "PersonnePhysique/GCS/SNS/A24/A24.2": {
+    "code": "A24.2",
+    "maxTaille": -1,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*",
+    "donneeReference": {
+      "classe": {
+        "code": "STATUT_EXERCICE",
+        "type": "CFE"
+      },
+      "liste": {
+        "2": "Salarié agricole",
+        "1": "Salarié",
+        "A": "Non salarié non agricole",
+        "B": "Retraité",
+        "C": "Pensionné invalidité",
+        "9": "Autre",
+        "8": "Retraité pensionné"
+      }
+    }
+  },
+  "Service/EDF/C10/C10.2": {
+    "code": "C10.2",
+    "maxTaille": -1,
+    "pattern": "....-..-..",
+    "obligatoire": true
+  },
+  "Entreprise/CPU/U21": {
+    "code": "U21",
+    "maxTaille": 840,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "Service/EDF/C10/C10.1": {
+    "code": "C10.1",
+    "maxTaille": -1,
+    "pattern": "(([0]{1}[1-9]{1})|([1-9]{1}\\d{1}))(P|M|F)",
+    "obligatoire": true
+  },
+  "PersonnePhysique/GCS/SNS/A24/A24.1": {
+    "code": "A24.1",
+    "minTaille": 1,
+    "maxTaille": 1,
+    "obligatoire": true,
+    "donneeReference": {
+      "classe": {
+        "code": "OUI_NON",
+        "type": "CFE"
+      },
+      "liste": {
+        "N": "Non",
+        "O": "Oui"
+      }
+    }
+  },
+  "PersonnePhysique/GCS/SNS/A24/A24.3": {
+    "code": "A24.3",
+    "maxTaille": 40,
+    "pattern": "(?![×Þß÷þø])[a-zÀ-ÿA-Z\\d\\s\\.,\\[\\]\\{\\}€@#\\-\\(\\)/='\\+:\\?!\"%&\\*;<>]*"
+  },
+  "PersonnePhysique/AIP/P12": {
+    "code": "P12",
+    "minTaille": 9,
+    "maxTaille": 9,
+    "pattern": "[\\d]*"
+  }
+}
