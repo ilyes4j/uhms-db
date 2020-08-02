@@ -1,9 +1,9 @@
 [
-  "webae/ae/ACTIF",
-  "webae/ae/PREINSC",
-  "webae/ae/RADIE",
-  "webae/cfe/BASIC",
-  "webae/liasse/AUC",
-  "webae/tdb/BASIC",
-  "webae/us/web-1121/AUC"
+  "webae/ae/-ACTIF",
+  "webae/ae/-PREINSC",
+  "webae/ae/-RADIE",
+  "webae/cfe/-BASIC",
+  "webae/liasse/-AUC",
+  "webae/tdb/-BASIC",
+  "webae/us/web-1121/-AUC=..BASIC_RADIE+..liasse.AUC"
 ]
