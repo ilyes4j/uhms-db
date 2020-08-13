@@ -1,0 +1,176 @@
+{
+  "token_bds": "uU8JwjjOVSM4cYoILC7PmORnw+c2v2eg13U90LRFZXwom4Ra0kgDiqGBkRF5OgqaK1+N4h7dVjbvlvHzxsrLUjAze1Y+5myG1aXjQiKzqi2gswvH1U2NmuQM6E2TzjJVywVBxg/yVQp8MkNr7y93RmSXilYVekzNfognFLSDS0ydp+4UXzmdC6Vx/DcWYRGT+R7jP8PRHH8EF7us28ecP4lVzbyjrpU3EXs1+zyjHAApi2bj95m43xMXCzYjv6Ohv9F5I+k6Cvv6yk3wJMBOJYecZgf7ru1hQFFeB+w7oftXBHbw0/FXZTe3+eRqknnnY9uHHAPVR/bceJd0SjlMN9rxhepBCHUBKLm96FrmbOdp3EtCxVYj8WKphZmZNf6NKWpi8MKjXJvNt561F2cq92b9kWHizGuTm1UyVf+lFiBoVGZeCPkVB8j5Cnlr2S0dPl/ebBl75bR/EQPSWXmYPX+amnccJPKnC2MBTbTgBjWaaAF0UeMNbvK4MJr7ONvtB2vcU34mMgvthHkYy7Zjz678NUVv2nUvcSZS5pSgKSIatK7grkVdcQUGq6apxykx",
+  "contexte": {
+    "mode": "nouvelle",
+    "embeddedbuf": "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",
+    "listexi": "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",
+    "liste_echeances": [
+      {
+        "key": "1933",
+        "label": "Septembre 2019"
+      },
+      {
+        "key": "2022",
+        "label": "Mai 2020"
+      },
+      {
+        "key": "2023",
+        "label": "Juin 2020"
+      },
+      {
+        "key": "2031",
+        "label": "Juillet 2020"
+      }
+    ],
+    "newdecpai": "1",
+    "askemail": "0",
+    "coti": {
+      "mail": "valid101_webae_cnv33@yopmail.com",
+      "nom": "MME  CHOVEAU LAETITIA ROSE",
+      "prenom": "",
+      "siret": "82910889300019",
+      "ech": "44",
+      "codp": "10",
+      "statut": "A",
+      "statut_lib": "Artisan",
+      "habdec": "O",
+      "habpai": "O",
+      "orga": "U727",
+      "numcot": "727000000652622788",
+      "qalid": "T",
+      "cat": "3",
+      "sscat": "",
+      "activite": "AC"
+    }
+  },
+  "data": {
+    "declaration": {
+      "attendue": true,
+      "periode": "1933",
+      "origine": {
+        "organisation": "",
+        "version": "",
+        "api": ""
+      },
+      "ass": {
+        "keys": [
+          "ass_ventes",
+          "ass_services",
+          "ass_autres"
+        ],
+        "ass_ventes": "0",
+        "ass_ventes_lib": "Chiffre d'affaires des ventes de marchandises",
+        "ass_ventes_tooltip": "Vous devez reporter le montant du chiffre d'affaires perçu au cours du trimestre civil ou du mois précédent la déclaration, arrondi à l'euro le plus proche. Pour en savoir plus, consultez la fiche pratique 'Déclarer et payer mes cotisations' sur la page d'accueil du site autoentrepreneur.urssaf.fr.",
+        "ass_services": "0",
+        "ass_services_lib": "Chiffre d'affaires des prestations de services commerciales ou artisanales",
+        "ass_services_tooltip": "Vous devez reporter le montant du chiffre d'affaires perçu au cours du trimestre civil ou du mois précédent la déclaration, arrondi à l'euro le plus proche. Pour en savoir plus, consultez la fiche pratique 'Déclarer et payer mes cotisations' sur la page d'accueil du site autoentrepreneur.urssaf.fr.",
+        "ass_autres": "0",
+        "ass_autres_lib": "Chiffre d'affaires des autres prestations de services",
+        "ass_autres_tooltip": "Vous devez reporter le montant du chiffre d'affaires perçu au cours du trimestre civil ou du mois précédent la déclaration, arrondi à l'euro le plus proche. Pour en savoir plus, consultez la fiche pratique 'Déclarer et payer mes cotisations' sur la page d'accueil du site autoentrepreneur.urssaf.fr.",
+        "ass_recettes": "0",
+        "ass_recettes_lib": "Recettes pour profession libérale relevant de la CIPAV",
+        "ass_recettes_tooltip": "Vous devez reporter le montant du chiffre d'affaires perçu au cours du trimestre civil ou du mois précédent la déclaration, arrondi à l'euro le plus proche. Pour en savoir plus, consultez la fiche pratique 'Déclarer et payer mes cotisations' sur la page d'accueil du site autoentrepreneur.urssaf.fr.",
+        "ass_locations": "0",
+        "ass_locations_lib": "Chiffre d'affaires des locations de meublés de tourisme classés",
+        "ass_locations_tooltip": "Vous devez reporter le montant du chiffre d'affaires perçu au cours du trimestre civil ou du mois précédent la déclaration, arrondi à l'euro le plus proche. Pour en savoir plus, consultez la fiche pratique 'Déclarer et payer mes cotisations' sur la page d'accueil du site autoentrepreneur.urssaf.fr."
+      },
+      "cotisations_lib": "Cotisations, contribution, taxes et impôt",
+      "mts": {
+        "keys": [
+          "mtdec",
+          "mtded",
+          "mtcfp",
+          "mtcot",
+          "mnt_accre",
+          "mtapa"
+        ],
+        "mtdec": "0",
+        "mtdec_lib": "",
+        "mtdec_tooltip": "",
+        "mtded": "0",
+        "mtded_lib": "Déduction éventuelle",
+        "mtded_tooltip": "Seuls peuvent être déduits les crédits qui vous ont été notifiés.",
+        "mtcfp": "0",
+        "mtcfp_lib": "",
+        "mtcfp_tooltip": "",
+        "mtcot": "0",
+        "mtcot_lib": "",
+        "mtcot_tooltip": "",
+        "mnt_accre": "0",
+        "mnt_accre_lib": "Régularisation Accre",
+        "mnt_accre_tooltip": "",
+        "mtapa": "0",
+        "mtapa_lib": "Montant à payer",
+        "mtapa_tooltip": ""
+      },
+      "certif": "D0",
+      "certif_lib": "Numéro d'accusé de réception",
+      "dh_exi_dec": "le 31/10/2019 à 00:00",
+      "dh_exi_dec_lib": "Date et heure d'échéance",
+      "dh_dec": "le // à :",
+      "dh_dec_lib": "Date et heure de la déclaration"
+    },
+    "paiement": {
+      "attendu": "false",
+      "information_modification_montant": "Le reste à payer est modifiable jusq'au 14 août 2020 avant 12h, sauf accord de délais de paiement.",
+      "moyen_pai": "SEPA",
+      "origine": {
+        "organisation": "",
+        "version": "",
+        "api": ""
+      },
+      "sepa": {
+        "SepaNbIban": "2",
+        "SepaMontant_0": "0",
+        "SepaIban_0": "CH5204835012345671000",
+        "SepaMontantVal_0": "0",
+        "SepaBic_0": "CRESCHZZ80A",
+        "SepaLib_0": "",
+        "SepaTicb_0": "VALIDATION",
+        "SepaRib_0": "",
+        "SepaRum_0": "T1973788291088930001967484545440833",
+        "SepaOrga_0": "U727",
+        "SepaOrigine_0": "T",
+        "favori_0": "false",
+        "SepaMontant_1": "0",
+        "SepaIban_1": "FR7610468025171135890020035",
+        "SepaMontantVal_1": "0",
+        "SepaBic_1": "RALPFR2G",
+        "SepaLib_1": "BANQUE RHONE ALPES",
+        "SepaTicb_1": "VALIDATION",
+        "SepaRib_1": "10468025171135890020035",
+        "SepaRum_1": "T1973788291088930001974118568440867",
+        "SepaOrga_1": "U727",
+        "SepaOrigine_1": "T",
+        "favori_1": "true",
+        "SepaTotalMontant": "0"
+      },
+      "cb": {
+        "vads_amount": "",
+        "per": "1933",
+        "dest": "",
+        "abo": "",
+        "coti": "",
+        "exi": "",
+        "cont": "",
+        "terminal_pai": "11",
+        "cbs": []
+      },
+      "dh_pai": "le // à :",
+      "dh_pai_lib": "Date et heure du paiement"
+    },
+    "declaration_validee_lib": "Votre déclaration a bien été validée et reste modifiable jusqu'au 14 août 2020 avant 12h. Vous pouvez désormais procéder au paiement de vos cotisations.",
+    "paiement_valide_lib": "Votre paiement a bien été validé et reste modifiable jusqu'au 14 août 2020 avant 12h.",
+    "paiement_valide_ar": "",
+    "paiement_valide_pdf": "url_dl_pdf",
+    "verslib": "Vous avez opté pour le versement libératoire de l'impôt sur le revenu.",
+    "accre": "Vous bénéficiez de l'Aide aux chômeurs créateurs ou repreneurs d'une entreprise (ACCRE) au titre de la 3ème année.",
+    "titre_page": "Déclaration mensuelle de chiffre d'affaires",
+    "periodicite": "M",
+    "cptrs": [
+      ""
+    ],
+    "alert_mnt_zero": "Nous vous informons que le montant validé pour le télépaiement est de 0€ alors que vous avez un montant à payer. S'il s'agit d'une erreur, nous vous invitons à modifier cette somme avant l'échéance. Si vous avez choisi un autre moyen de paiement, nous vous rappelons qu'il est impératif d'indiquer votre numéro de compte ainsi que la période concernée.",
+    "declaration_pdf": ""
+  }
+}
