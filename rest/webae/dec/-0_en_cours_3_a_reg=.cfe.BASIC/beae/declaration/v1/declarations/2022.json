@@ -1,0 +1,85 @@
+{
+  "contexte" : {
+    "mode" : "histo",
+    "liste_echeances" : [ {
+      "key" : "2022",
+      "label" : "Mai 2020"
+    } ]
+  },
+  "data" : {
+    "declaration" : {
+      "attendue" : true,
+      "periode" : "2022",
+      "origine" : {
+        "organisation" : "",
+        "version" : "",
+        "api" : "PAPIER"
+      },
+      "ass" : null,
+      "cotisations_lib" : "Cotisations, contribution et taxes",
+      "cts" : [ {
+        "code" : "60",
+        "lib" : "TAXE CMA VENTE OBLIGATOIRE CAS GAL",
+        "libr" : "TAXE CMA VENTE OBLIGATOIRE CAS GAL",
+        "taux" : "0.22",
+        "mt" : "36.0",
+        "tooltip" : "Le montant à payer a été automatiquement calculé et reporté dans la partie total à payer."
+      }, {
+        "code" : "572",
+        "lib" : "FORMATION PROF. OBLIGATOIRE",
+        "libr" : "FORMATION PROF. OBLIGATOIRE",
+        "taux" : "0.3",
+        "mt" : "49.0",
+        "tooltip" : "Le montant à payer a été automatiquement calculé et reporté dans la partie total à payer."
+      }, {
+        "code" : "630",
+        "lib" : "MICRO SOC.VERS.LIB.VENTES ART.METROP",
+        "libr" : "MICRO SOC.VERS.LIB.VENTES ART.METROP",
+        "taux" : "13.8",
+        "mt" : "2253.0",
+        "tooltip" : "Le montant à payer a été automatiquement calculé et reporté dans la partie total à payer."
+      } ],
+      "mts" : {
+        "keys" : [ "mtapa" ],
+        "mtdec" : null,
+        "mtdec_lib" : null,
+        "mtdec_tooltip" : null,
+        "mtded" : null,
+        "mtded_lib" : null,
+        "mtded_tooltip" : null,
+        "mtcfp" : null,
+        "mtcfp_lib" : null,
+        "mtcfp_tooltip" : null,
+        "mtcot" : null,
+        "mtcot_lib" : null,
+        "mtcot_tooltip" : null,
+        "mnt_accre" : null,
+        "mnt_accre_lib" : null,
+        "mnt_accre_tooltip" : null,
+        "mtapa" : "2338.0",
+        "mtapa_lib" : "Montant à payer",
+        "mtapa_tooltip" : ""
+      },
+      "certif" : null,
+      "certif_lib" : null,
+      "dh_exi_dec" : "le 30/06/2020",
+      "dh_exi_dec_date" : "2020-06-30",
+      "dh_exi_dec_lib" : "Date d'échéance",
+      "dh_dec" : "le 01/07/2020",
+      "dh_dec_date" : "2020-07-01",
+      "dh_dec_lib" : "Date de la déclaration"
+    },
+    "paiement" : null,
+    "declaration_validee_lib" : null,
+    "paiement_valide_lib" : null,
+    "paiement_valide_ar" : null,
+    "paiement_valide_pdf" : null,
+    "verslib" : null,
+    "accre" : null,
+    "titre_page" : "Déclaration mensuelle de chiffre d'affaires",
+    "periodicite" : "M",
+    "cptrs" : [ ],
+    "alert_mnt_zero" : null,
+    "declaration_pdf" : null
+  }
+}

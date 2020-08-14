@@ -1,0 +1,14 @@
+[
+  {
+    "libellePeriode": "Mai 2017",
+    "codePeriode": "1722",
+    "montantDebitCalcule": 0.0,
+    "montantDu": 0.0,
+    "origineDeclaration": "PAPIER",
+    "libelleOrigineDeclaration": "déclaration Papier",
+    "dateReception": "2017-10-30",
+    "dateTermeLegal": "2017-10-02",
+    "dateTermeTolere": "2017-10-02",
+    "estTeleDeclarable": false
+  }
+]

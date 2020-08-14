@@ -1,0 +1,24 @@
+{
+  "derniereConnexion": "2020-07-23T11:53:37.885+02:00",
+  "dateJourneeComptable": "2020-07-17",
+  "notifications": [
+    {
+      "id": 13002,
+      "estLu": false,
+      "type": "MESSAGE",
+      "customSujet": "Vous avez reçu un nouveau message",
+      "customContenu": "123279",
+      "dateCreation": "2019-05-09T16:30:10+02:00",
+      "cfeJoinUser": 66
+    },
+    {
+      "id": 2751,
+      "estLu": true,
+      "type": "BIENVENUE",
+      "customSujet": "Bienvenue {{profile.prenom}} {{profile.nom}} sur votre nouvel espace personnel en ligne. Ce dernier, vous permet d'accéder en quelques clics, à l'ensemble des services dédiés aux auto-entrepreneurs.",
+      "dateCreation": "2019-02-19T08:50:45.436+01:00",
+      "cfeJoinUser": 66
+    }
+  ],
+  "demandes": []
+}

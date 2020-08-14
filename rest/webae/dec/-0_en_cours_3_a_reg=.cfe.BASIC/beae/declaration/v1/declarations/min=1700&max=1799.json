@@ -1,0 +1,98 @@
+[
+  {
+    "libellePeriode": "Décembre 2017",
+    "codePeriode": "1743",
+    "montantDebitCalcule": 193.0,
+    "montantDu": 192.0,
+    "origineDeclaration": "PAPIER",
+    "libelleOrigineDeclaration": "déclaration Papier",
+    "dateReception": "2018-01-20",
+    "dateTermeLegal": "2018-01-31",
+    "dateTermeTolere": "2018-02-02",
+    "estTeleDeclarable": false
+  },
+  {
+    "libellePeriode": "Novembre 2017",
+    "codePeriode": "1742",
+    "montantDebitCalcule": 125.0,
+    "montantDu": 126.0,
+    "origineDeclaration": "PAPIER",
+    "libelleOrigineDeclaration": "déclaration Papier",
+    "dateReception": "2017-12-23",
+    "dateTermeLegal": "2018-01-02",
+    "dateTermeTolere": "2018-01-04",
+    "estTeleDeclarable": false
+  },
+  {
+    "libellePeriode": "Octobre 2017",
+    "codePeriode": "1741",
+    "montantDebitCalcule": 49.0,
+    "montantDu": 49.0,
+    "origineDeclaration": "PAPIER",
+    "libelleOrigineDeclaration": "déclaration Papier",
+    "dateReception": "2017-11-01",
+    "dateTermeLegal": "2017-11-30",
+    "dateTermeTolere": "2017-12-04",
+    "estTeleDeclarable": false
+  },
+  {
+    "libellePeriode": "Septembre 2017",
+    "codePeriode": "1733",
+    "montantDebitCalcule": 0.0,
+    "montantDu": 0.0,
+    "origineDeclaration": "PAPIER",
+    "libelleOrigineDeclaration": "déclaration Papier",
+    "dateReception": "2017-10-30",
+    "dateTermeLegal": "2017-10-31",
+    "dateTermeTolere": "2017-11-03",
+    "estTeleDeclarable": false
+  },
+  {
+    "libellePeriode": "Août 2017",
+    "codePeriode": "1732",
+    "montantDebitCalcule": 358.0,
+    "montantDu": 358.0,
+    "origineDeclaration": "PAPIER",
+    "libelleOrigineDeclaration": "déclaration Papier",
+    "dateReception": "2017-10-01",
+    "dateTermeLegal": "2017-10-02",
+    "dateTermeTolere": "2017-10-04",
+    "estTeleDeclarable": false
+  },
+  {
+    "libellePeriode": "Juillet 2017",
+    "codePeriode": "1731",
+    "montantDebitCalcule": 0.0,
+    "montantDu": 0.0,
+    "origineDeclaration": "PAPIER",
+    "libelleOrigineDeclaration": "déclaration Papier",
+    "dateReception": "2017-10-13",
+    "dateTermeLegal": "2017-10-02",
+    "dateTermeTolere": "2017-10-02",
+    "estTeleDeclarable": false
+  },
+  {
+    "libellePeriode": "Juin 2017",
+    "codePeriode": "1723",
+    "montantDebitCalcule": 0.0,
+    "montantDu": 0.0,
+    "origineDeclaration": "PAPIER",
+    "libelleOrigineDeclaration": "déclaration Papier",
+    "dateReception": "2017-10-30",
+    "dateTermeLegal": "2017-10-02",
+    "dateTermeTolere": "2017-10-02",
+    "estTeleDeclarable": false
+  },
+  {
+    "libellePeriode": "Mai 2017",
+    "codePeriode": "1722",
+    "montantDebitCalcule": 0.0,
+    "montantDu": 0.0,
+    "origineDeclaration": "PAPIER",
+    "libelleOrigineDeclaration": "déclaration Papier",
+    "dateReception": "2017-10-30",
+    "dateTermeLegal": "2017-10-02",
+    "dateTermeTolere": "2017-10-02",
+    "estTeleDeclarable": false
+  }
+]

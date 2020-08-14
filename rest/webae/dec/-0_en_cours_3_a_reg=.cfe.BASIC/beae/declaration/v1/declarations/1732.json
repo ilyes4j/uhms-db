@@ -1,0 +1,93 @@
+{
+  "contexte": {
+    "mode": "histo",
+    "liste_echeances": [
+      {
+        "key": "1732",
+        "label": "Août 2017"
+      }
+    ]
+  },
+  "data": {
+    "declaration": {
+      "attendue": true,
+      "periode": "1732",
+      "origine": {
+        "organisation": "",
+        "version": "",
+        "api": "PAPIER"
+      },
+      "ass": null,
+      "cotisations_lib": "Cotisations, contribution et taxes",
+      "cts": [
+        {
+          "code": "572",
+          "lib": "FORMATION PROF. OBLIGATOIRE",
+          "libr": "FORMATION PROF. OBLIGATOIRE",
+          "taux": "0.3",
+          "mt": "23.0",
+          "tooltip": "Le montant à payer a été automatiquement calculé et reporté dans la partie total à payer."
+        },
+        {
+          "code": "510",
+          "lib": "MICRO SOC.IMPOT ACT.VTE BENEFICIAIR",
+          "libr": "MICRO SOC.IMPOT ACT.VTE BENEFICIAIR",
+          "taux": "1.0",
+          "mt": "78.0",
+          "tooltip": "Le montant à payer a été automatiquement calculé et reporté dans la partie total à payer."
+        },
+        {
+          "code": "52",
+          "lib": "AE ACCRE 1 VENTES ARTISAN METROPOLE",
+          "libr": "AE ACCRE 1 VENTES ARTISAN METROPOLE",
+          "taux": "3.3",
+          "mt": "257.0",
+          "tooltip": "Le montant à payer a été automatiquement calculé et reporté dans la partie total à payer."
+        }
+      ],
+      "mts": {
+        "keys": [
+          "mtapa"
+        ],
+        "mtdec": null,
+        "mtdec_lib": null,
+        "mtdec_tooltip": null,
+        "mtded": null,
+        "mtded_lib": null,
+        "mtded_tooltip": null,
+        "mtcfp": null,
+        "mtcfp_lib": null,
+        "mtcfp_tooltip": null,
+        "mtcot": null,
+        "mtcot_lib": null,
+        "mtcot_tooltip": null,
+        "mnt_accre": null,
+        "mnt_accre_lib": null,
+        "mnt_accre_tooltip": null,
+        "mtapa": "358.0",
+        "mtapa_lib": "Montant à payer",
+        "mtapa_tooltip": ""
+      },
+      "certif": null,
+      "certif_lib": null,
+      "dh_exi_dec": "le 02/10/2017",
+      "dh_exi_dec_date": "2017-10-02",
+      "dh_exi_dec_lib": "Date d'échéance",
+      "dh_dec": "le 01/10/2017",
+      "dh_dec_date": "2017-10-01",
+      "dh_dec_lib": "Date de la déclaration"
+    },
+    "paiement": null,
+    "declaration_validee_lib": null,
+    "paiement_valide_lib": null,
+    "paiement_valide_ar": null,
+    "paiement_valide_pdf": null,
+    "verslib": null,
+    "accre": null,
+    "titre_page": "Déclaration mensuelle de chiffre d'affaires",
+    "periodicite": "M",
+    "cptrs": [],
+    "alert_mnt_zero": null,
+    "declaration_pdf": null
+  }
+}

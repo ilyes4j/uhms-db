@@ -1,0 +1,101 @@
+{
+  "contexte": {
+    "mode": "histo",
+    "liste_echeances": [
+      {
+        "key": "1832",
+        "label": "Août 2018"
+      }
+    ]
+  },
+  "data": {
+    "declaration": {
+      "attendue": true,
+      "periode": "1832",
+      "origine": {
+        "organisation": "",
+        "version": "",
+        "api": "PAPIER"
+      },
+      "ass": null,
+      "cotisations_lib": "Cotisations, contribution et taxes",
+      "cts": [
+        {
+          "code": "60",
+          "lib": "TAXE CMA VENTE OBLIGATOIRE CAS GAL",
+          "libr": "TAXE CMA VENTE OBLIGATOIRE CAS GAL",
+          "taux": "0.22",
+          "mt": "6.0",
+          "tooltip": "Le montant à payer a été automatiquement calculé et reporté dans la partie total à payer."
+        },
+        {
+          "code": "572",
+          "lib": "FORMATION PROF. OBLIGATOIRE",
+          "libr": "FORMATION PROF. OBLIGATOIRE",
+          "taux": "0.3",
+          "mt": "9.0",
+          "tooltip": "Le montant à payer a été automatiquement calculé et reporté dans la partie total à payer."
+        },
+        {
+          "code": "510",
+          "lib": "MICRO SOC.IMPOT ACT.VTE BENEFICIAIR",
+          "libr": "MICRO SOC.IMPOT ACT.VTE BENEFICIAIR",
+          "taux": "1.0",
+          "mt": "29.0",
+          "tooltip": "Le montant à payer a été automatiquement calculé et reporté dans la partie total à payer."
+        },
+        {
+          "code": "502",
+          "lib": "AE ACCRE 2 VENTES ARTISAN METROPOLE",
+          "libr": "AE ACCRE 2 VENTES ARTISAN METROPOLE",
+          "taux": "6.4",
+          "mt": "188.0",
+          "tooltip": "Le montant à payer a été automatiquement calculé et reporté dans la partie total à payer."
+        }
+      ],
+      "mts": {
+        "keys": [
+          "mtapa"
+        ],
+        "mtdec": null,
+        "mtdec_lib": null,
+        "mtdec_tooltip": null,
+        "mtded": null,
+        "mtded_lib": null,
+        "mtded_tooltip": null,
+        "mtcfp": null,
+        "mtcfp_lib": null,
+        "mtcfp_tooltip": null,
+        "mtcot": null,
+        "mtcot_lib": null,
+        "mtcot_tooltip": null,
+        "mnt_accre": null,
+        "mnt_accre_lib": null,
+        "mnt_accre_tooltip": null,
+        "mtapa": "232.0",
+        "mtapa_lib": "Montant à payer",
+        "mtapa_tooltip": ""
+      },
+      "certif": null,
+      "certif_lib": null,
+      "dh_exi_dec": "le 01/10/2018",
+      "dh_exi_dec_date": "2018-10-01",
+      "dh_exi_dec_lib": "Date d'échéance",
+      "dh_dec": "le 28/09/2018",
+      "dh_dec_date": "2018-09-28",
+      "dh_dec_lib": "Date de la déclaration"
+    },
+    "paiement": null,
+    "declaration_validee_lib": null,
+    "paiement_valide_lib": null,
+    "paiement_valide_ar": null,
+    "paiement_valide_pdf": null,
+    "verslib": null,
+    "accre": null,
+    "titre_page": "Déclaration mensuelle de chiffre d'affaires",
+    "periodicite": "M",
+    "cptrs": [],
+    "alert_mnt_zero": null,
+    "declaration_pdf": null
+  }
+}

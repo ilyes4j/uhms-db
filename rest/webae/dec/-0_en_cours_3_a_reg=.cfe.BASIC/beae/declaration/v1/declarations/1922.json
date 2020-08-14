@@ -1,0 +1,101 @@
+{
+  "contexte": {
+    "mode": "histo",
+    "liste_echeances": [
+      {
+        "key": "1922",
+        "label": "Mai 2019"
+      }
+    ]
+  },
+  "data": {
+    "declaration": {
+      "attendue": true,
+      "periode": "1922",
+      "origine": {
+        "organisation": "",
+        "version": "",
+        "api": "PAPIER"
+      },
+      "ass": null,
+      "cotisations_lib": "Cotisations, contribution et taxes",
+      "cts": [
+        {
+          "code": "60",
+          "lib": "TAXE CMA VENTE OBLIGATOIRE CAS GAL",
+          "libr": "TAXE CMA VENTE OBLIGATOIRE CAS GAL",
+          "taux": "0.22",
+          "mt": "11.0",
+          "tooltip": "Le montant à payer a été automatiquement calculé et reporté dans la partie total à payer."
+        },
+        {
+          "code": "572",
+          "lib": "FORMATION PROF. OBLIGATOIRE",
+          "libr": "FORMATION PROF. OBLIGATOIRE",
+          "taux": "0.3",
+          "mt": "15.0",
+          "tooltip": "Le montant à payer a été automatiquement calculé et reporté dans la partie total à payer."
+        },
+        {
+          "code": "510",
+          "lib": "MICRO SOC.IMPOT ACT.VTE BENEFICIAIR",
+          "libr": "MICRO SOC.IMPOT ACT.VTE BENEFICIAIR",
+          "taux": "1.0",
+          "mt": "49.0",
+          "tooltip": "Le montant à payer a été automatiquement calculé et reporté dans la partie total à payer."
+        },
+        {
+          "code": "506",
+          "lib": "AE ACCRE 3 VENTES ARTISAN METROPOLE",
+          "libr": "AE ACCRE 3 VENTES ARTISAN METROPOLE",
+          "taux": "9.6",
+          "mt": "471.0",
+          "tooltip": "Le montant à payer a été automatiquement calculé et reporté dans la partie total à payer."
+        }
+      ],
+      "mts": {
+        "keys": [
+          "mtapa"
+        ],
+        "mtdec": null,
+        "mtdec_lib": null,
+        "mtdec_tooltip": null,
+        "mtded": null,
+        "mtded_lib": null,
+        "mtded_tooltip": null,
+        "mtcfp": null,
+        "mtcfp_lib": null,
+        "mtcfp_tooltip": null,
+        "mtcot": null,
+        "mtcot_lib": null,
+        "mtcot_tooltip": null,
+        "mnt_accre": null,
+        "mnt_accre_lib": null,
+        "mnt_accre_tooltip": null,
+        "mtapa": "546.0",
+        "mtapa_lib": "Montant à payer",
+        "mtapa_tooltip": ""
+      },
+      "certif": null,
+      "certif_lib": null,
+      "dh_exi_dec": "le 01/07/2019",
+      "dh_exi_dec_date": "2019-07-01",
+      "dh_exi_dec_lib": "Date d'échéance",
+      "dh_dec": "le 30/06/2019",
+      "dh_dec_date": "2019-06-30",
+      "dh_dec_lib": "Date de la déclaration"
+    },
+    "paiement": null,
+    "declaration_validee_lib": null,
+    "paiement_valide_lib": null,
+    "paiement_valide_ar": null,
+    "paiement_valide_pdf": null,
+    "verslib": null,
+    "accre": null,
+    "titre_page": "Déclaration mensuelle de chiffre d'affaires",
+    "periodicite": "M",
+    "cptrs": [],
+    "alert_mnt_zero": null,
+    "declaration_pdf": null
+  }
+}

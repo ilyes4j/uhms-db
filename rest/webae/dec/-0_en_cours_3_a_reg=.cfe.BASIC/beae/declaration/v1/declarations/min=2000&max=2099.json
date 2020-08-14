@@ -1,0 +1,77 @@
+[
+  {
+    "libellePeriode": "Juin 2020",
+    "codePeriode": "2023",
+    "montantDebitCalcule": 0.0,
+    "montantDu": 0.0,
+    "origineDeclaration": "PAPIER",
+    "libelleOrigineDeclaration": "déclaration Papier",
+    "dateTermeLegal": "2020-07-31",
+    "dateTermeTolere": "2020-08-06",
+    "estTeleDeclarable": false
+  },
+  {
+    "libellePeriode": "Mai 2020",
+    "codePeriode": "2022",
+    "montantDebitCalcule": 2338.0,
+    "montantDu": 2338.0,
+    "origineDeclaration": "PAPIER",
+    "libelleOrigineDeclaration": "déclaration Papier",
+    "dateReception": "2020-07-01",
+    "dateTermeLegal": "2020-06-30",
+    "dateTermeTolere": "2020-07-06",
+    "estTeleDeclarable": false
+  },
+  {
+    "libellePeriode": "Avril 2020",
+    "codePeriode": "2021",
+    "montantDebitCalcule": 1715.0,
+    "montantDu": 3747.0,
+    "origineDeclaration": "WEB",
+    "libelleOrigineDeclaration": "site internet",
+    "dateReception": "le 09/07/2020 à 16:01",
+    "dateTermeLegal": "2020-06-02",
+    "dateTermeTolere": "2020-06-08",
+    "estTeleDeclarable": false,
+    "urlPdf": "http://localhost:8080/rest/webae/dec/0_en_cours_3_a_reg/justificatifs/déclaration de CA_04_2020.pdf"
+  },
+  {
+    "libellePeriode": "Mars 2020",
+    "codePeriode": "2013",
+    "montantDebitCalcule": 347.0,
+    "montantDu": 619.0,
+    "origineDeclaration": "WEB",
+    "libelleOrigineDeclaration": "site internet",
+    "dateReception": "le 20/04/2020 à 16:21",
+    "dateTermeLegal": "2020-04-30",
+    "dateTermeTolere": "2020-05-07",
+    "estTeleDeclarable": false,
+    "urlPdf": "http://localhost:8080/rest/webae/dec/0_en_cours_3_a_reg/justificatifs/déclaration de CA_03_2020.pdf"
+  },
+  {
+    "libellePeriode": "Février 2020",
+    "codePeriode": "2012",
+    "montantDebitCalcule": 0.0,
+    "montantDu": 0.0,
+    "origineDeclaration": "WEB",
+    "libelleOrigineDeclaration": "site internet",
+    "dateReception": "le 30/03/2020 à 12:13",
+    "dateTermeLegal": "2020-03-31",
+    "dateTermeTolere": "2020-04-06",
+    "estTeleDeclarable": false,
+    "urlPdf": "http://localhost:8080/rest/webae/dec/0_en_cours_3_a_reg/justificatifs/déclaration de CA_02_2020.pdf"
+  },
+  {
+    "libellePeriode": "Janvier 2020",
+    "codePeriode": "2011",
+    "montantDebitCalcule": 554.0,
+    "montantDu": 1313.0,
+    "origineDeclaration": "WEB",
+    "libelleOrigineDeclaration": "site internet",
+    "dateReception": "le 24/02/2020 à 10:35",
+    "dateTermeLegal": "2020-02-28",
+    "dateTermeTolere": "2020-04-06",
+    "estTeleDeclarable": false,
+    "urlPdf": "http://localhost:8080/rest/webae/dec/0_en_cours_3_a_reg/justificatifs/déclaration de CA_01_2020.pdf"
+  }
+]
