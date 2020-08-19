@@ -1,8 +1,7 @@
 [
-  "xml",
-  "js",
-  "css",
-  "html",
-  "txt",
-  "json"
+  "application/json",
+  "application/javascript",
+  "text/html",
+  "text/css",
+  "text/csv"
 ]
