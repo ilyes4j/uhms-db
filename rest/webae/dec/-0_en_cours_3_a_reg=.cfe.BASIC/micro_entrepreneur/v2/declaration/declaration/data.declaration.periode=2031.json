@@ -2,6 +2,5 @@
   "name": "declaration",
   "message": "Aucune déclaration n'est attendue actuellement. Si vous avez débuté récemment votre activité, en application de la réglementation, un délai de 90 jours doit s'être écoulé entre la date de votre début d'activité et votre première déclaration de chiffre d'affaires. Nous vous invitons à vous connecter à l'issue de ce délai pour déclarer votre chiffre d'affaires et payer vos cotisations.",
   "code": "D0001",
-  "status": 401,
-  "__HTTP/1.1": "401 Unauthorized"
+  "status": 401
 }
