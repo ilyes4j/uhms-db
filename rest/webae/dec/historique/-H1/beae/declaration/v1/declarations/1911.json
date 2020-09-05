@@ -1,0 +1,290 @@
+{
+  "contexte": {
+    "mode": "histo",
+    "liste_echeances": [
+      {
+        "key": "2021",
+        "label": "Avril 2020"
+      },
+      {
+        "key": "2013",
+        "label": "Mars 2020"
+      },
+      {
+        "key": "2012",
+        "label": "Février 2020"
+      },
+      {
+        "key": "2011",
+        "label": "Janvier 2020"
+      },
+      {
+        "key": "1943",
+        "label": "Décembre 2019"
+      },
+      {
+        "key": "1942",
+        "label": "Novembre 2019"
+      },
+      {
+        "key": "1941",
+        "label": "Octobre 2019"
+      },
+      {
+        "key": "1932",
+        "label": "Août 2019"
+      },
+      {
+        "key": "1931",
+        "label": "Juillet 2019"
+      },
+      {
+        "key": "1923",
+        "label": "Juin 2019"
+      },
+      {
+        "key": "1912",
+        "label": "Février 2019"
+      },
+      {
+        "key": "1911",
+        "label": "Janvier 2019"
+      },
+      {
+        "key": "1843",
+        "label": "Décembre 2018"
+      }
+    ]
+  },
+  "data": {
+    "declaration": {
+      "attendue": false,
+      "periode": "1911",
+      "origine": {
+        "organisation": "site internet",
+        "version": "",
+        "api": "WEB"
+      },
+      "ass": {
+        "keys": [
+          "ass_ventes",
+          "ass_services",
+          "ass_autres"
+        ],
+        "ass_ventes": "1008",
+        "ass_ventes_lib": "Chiffre d'affaires des ventes de marchandises",
+        "ass_ventes_tooltip": "Vous devez reporter le montant du chiffre d'affaires perçu au cours du trimestre civil ou du mois précédent la déclaration, arrondi à l'euro le plus proche. Pour en savoir plus, consultez la fiche pratique 'Déclarer et payer mes cotisations' sur la page d'accueil du site autoentrepreneur.urssaf.fr.",
+        "ass_services": "2587",
+        "ass_services_lib": "Chiffre d'affaires des prestations de services commerciales ou artisanales",
+        "ass_services_tooltip": "Vous devez reporter le montant du chiffre d'affaires perçu au cours du trimestre civil ou du mois précédent la déclaration, arrondi à l'euro le plus proche. Pour en savoir plus, consultez la fiche pratique 'Déclarer et payer mes cotisations' sur la page d'accueil du site autoentrepreneur.urssaf.fr.",
+        "ass_autres": "3699",
+        "ass_autres_lib": "Chiffre d'affaires des autres prestations de services",
+        "ass_autres_tooltip": "Vous devez reporter le montant du chiffre d'affaires perçu au cours du trimestre civil ou du mois précédent la déclaration, arrondi à l'euro le plus proche. Pour en savoir plus, consultez la fiche pratique 'Déclarer et payer mes cotisations' sur la page d'accueil du site autoentrepreneur.urssaf.fr.",
+        "ass_recettes": "0",
+        "ass_recettes_lib": "Recettes pour profession libérale relevant de la CIPAV",
+        "ass_recettes_tooltip": "Vous devez reporter le montant du chiffre d'affaires perçu au cours du trimestre civil ou du mois précédent la déclaration, arrondi à l'euro le plus proche. Pour en savoir plus, consultez la fiche pratique 'Déclarer et payer mes cotisations' sur la page d'accueil du site autoentrepreneur.urssaf.fr.",
+        "ass_locations": "0",
+        "ass_locations_lib": "Chiffre d'affaires des locations de meublés de tourisme classés",
+        "ass_locations_tooltip": "Vous devez reporter le montant du chiffre d'affaires perçu au cours du trimestre civil ou du mois précédent la déclaration, arrondi à l'euro le plus proche. Pour en savoir plus, consultez la fiche pratique 'Déclarer et payer mes cotisations' sur la page d'accueil du site autoentrepreneur.urssaf.fr."
+      },
+      "cotisations_lib": "Cotisations, contribution, taxes et impôt",
+      "cts": [
+        {
+          "code": "510",
+          "lib": "IMPOT ACTIVITES DE VENTE",
+          "libr": "MICRO SOC. IR VENTE",
+          "taux": "1.00%",
+          "mt": "10",
+          "tooltip": "Le montant à payer a été automatiquement calculé et reporté dans la partie total à payer."
+        },
+        {
+          "code": "520",
+          "lib": "IMPOT PRESTATIONS DE SERVICE COMMERCIALES OU ARTISANALES",
+          "libr": "MICRO SOC. IR BIC",
+          "taux": "1.70%",
+          "mt": "44",
+          "tooltip": "Le montant à payer a été automatiquement calculé et reporté dans la partie total à payer."
+        },
+        {
+          "code": "573",
+          "lib": "IMPOT PRESTATIONS DE SERVICE NON COMMERCIALES",
+          "libr": "MICRO SOC. IR BNC",
+          "taux": "2.20%",
+          "mt": "81",
+          "tooltip": "Le montant à payer a été automatiquement calculé et reporté dans la partie total à payer."
+        },
+        {
+          "code": "502",
+          "lib": "VENTES DE MARCHANDISES ACCRE",
+          "libr": "ACCRE 2 VENTE ARTIS",
+          "taux": "6.40%",
+          "mt": "65",
+          "tooltip": "Le montant à payer a été automatiquement calculé et reporté dans la partie total à payer."
+        },
+        {
+          "code": "504",
+          "lib": "PRESTATIONS DE SERVICES COMMERCIALES OU ARTISANALES ACCRE",
+          "libr": "ACCRE2 PREST BIC ART",
+          "taux": "11.00%",
+          "mt": "691",
+          "tooltip": "Le montant à payer a été automatiquement calculé et reporté dans la partie total à payer."
+        },
+        {
+          "code": "572",
+          "lib": "FORMATION PROF. OBLIGATOIRE",
+          "libr": "CFP OBLIGATOIRE",
+          "taux": "0.30%",
+          "mt": "22",
+          "tooltip": "Le montant à payer a été automatiquement calculé et reporté dans la partie total à payer."
+        },
+        {
+          "code": "060",
+          "lib": "TAXE CMA VENTE",
+          "libr": "TAXE CMA VENTE",
+          "taux": "0.22%",
+          "mt": "2",
+          "tooltip": "Le montant à payer a été automatiquement calculé et reporté dans la partie total à payer."
+        },
+        {
+          "code": "061",
+          "lib": "TAXE CMA SERVICE",
+          "libr": "TAXE CMA SERVICE",
+          "taux": "0.48%",
+          "mt": "30",
+          "tooltip": "Le montant à payer a été automatiquement calculé et reporté dans la partie total à payer."
+        }
+      ],
+      "mts": {
+        "keys": [
+          "mtdec",
+          "mtded",
+          "mtcfp",
+          "mtcot",
+          "mnt_accre",
+          "mtapa"
+        ],
+        "mtdec": "945",
+        "mtdec_lib": "",
+        "mtdec_tooltip": "",
+        "mtded": "0",
+        "mtded_lib": "Déduction éventuelle",
+        "mtded_tooltip": "Seuls peuvent être déduits les crédits qui vous ont été notifiés.",
+        "mtcfp": "22",
+        "mtcfp_lib": "",
+        "mtcfp_tooltip": "",
+        "mtcot": "923",
+        "mtcot_lib": "",
+        "mtcot_tooltip": "",
+        "mnt_accre": "0",
+        "mnt_accre_lib": "Régularisation Accre",
+        "mnt_accre_tooltip": "",
+        "mtapa": "945",
+        "mtapa_lib": "Montant à payer",
+        "mtapa_tooltip": ""
+      },
+      "certif": "D056366785",
+      "certif_lib": "Numéro d'accusé de réception",
+      "dh_exi_dec": "le 28/02/2019 à 12:00",
+      "dh_exi_dec_date": "2019-02-28",
+      "dh_exi_dec_lib": "Date et heure d'échéance",
+      "dh_dec": "le 19/02/2019 à 09:21",
+      "dh_dec_date": "2019-02-19",
+      "dh_dec_lib": "Date et heure de la déclaration"
+    },
+    "paiement": {
+      "attendu": "false",
+      "information_modification_montant": "Le reste à payer est modifiable jusq'au , sauf accord de délais de paiement.",
+      "moyen_pai": "SEPA",
+      "origine": {
+        "organisation": "",
+        "version": "",
+        "api": ""
+      },
+      "sepa": {
+        "SepaNbIban": "1",
+        "SepaMontant_0": "945",
+        "SepaIban_0": "CH5204835012345671000",
+        "SepaMontantVal_0": "945",
+        "SepaBic_0": "CRESCHZZ80A",
+        "SepaLib_0": "",
+        "SepaTicb_0": "VALIDATION",
+        "SepaRib_0": "",
+        "SepaRum_0": "T1973788291088930001967484545440833",
+        "SepaOrga_0": "U727",
+        "SepaOrigine_0": "T",
+        "favori_0": "false",
+        "SepaMontant_1": null,
+        "SepaIban_1": null,
+        "SepaMontantVal_1": null,
+        "SepaBic_1": null,
+        "SepaLib_1": null,
+        "SepaTicb_1": null,
+        "SepaRib_1": null,
+        "SepaRum_1": null,
+        "SepaOrga_1": null,
+        "SepaOrigine_1": null,
+        "favori_1": null,
+        "SepaMontant_2": null,
+        "SepaIban_2": null,
+        "SepaMontantVal_2": null,
+        "SepaBic_2": null,
+        "SepaLib_2": null,
+        "SepaTicb_2": null,
+        "SepaRib_2": null,
+        "SepaRum_2": null,
+        "SepaOrga_2": null,
+        "SepaOrigine_2": null,
+        "favori_2": null,
+        "SepaMontant_3": null,
+        "SepaIban_3": null,
+        "SepaMontantVal_3": null,
+        "SepaBic_3": null,
+        "SepaLib_3": null,
+        "SepaTicb_3": null,
+        "SepaRib_3": null,
+        "SepaRum_3": null,
+        "SepaOrga_3": null,
+        "SepaOrigine_3": null,
+        "favori_3": null,
+        "SepaMontant_4": null,
+        "SepaIban_4": null,
+        "SepaMontantVal_4": null,
+        "SepaBic_4": null,
+        "SepaLib_4": null,
+        "SepaTicb_4": null,
+        "SepaRib_4": null,
+        "SepaRum_4": null,
+        "SepaOrga_4": null,
+        "SepaOrigine_4": null,
+        "favori_4": null,
+        "SepaTotalMontant": "945"
+      },
+      "cb": {
+        "vads_amount": "",
+        "per": "1911",
+        "dest": "PGRlc3Qgc2lyZW49Ijc4ODc3ODc3NyIgc2lyZXQ9Ijc4ODc3ODc3NzAwMDExIiB1cj0iVTcyNyI+CiAgICA8bGliPlVSU1NBRiBBcXVpdGFpbmUgMjwvbGliPgogICAgPGFkcjE+cnVlIGR1IGNudiAzMzwvYWRyMT4KICAgIDxhZHIyPlBGIFRvdWxvdXNlPC9hZHIyPgogICAgPGNwPjMzMDgwPC9jcD4KICAgIDx2aWxsZT5ib3JkZWF1eCBjZWRleCB0ZXN0PC92aWxsZT4KICA8L2Rlc3Q+",
+        "abo": "PGFibz4KICAgICAgICA8bWFpbD52YWxpZDEwMV93ZWJhZV9jbnYzM0B5b3BtYWlsLmNvbTwvbWFpbD4KICAgICAgICA8aWRlbnQ+CiAgICAgICAgICA8aWR2ZXIgaWRhYm89IkEwQm5OSE95TkJvUjZaSFZBRkJXdWZmYiIgc2lyZW49IjgyOTEwODg5MyI+CiAgICAgICAgICAgIDxub20+VkFMSURBVElPTjwvbm9tPgogICAgICAgICAgICA8cHJlbm8+VEJPRCBDTlZCRFg8L3ByZW5vPgogICAgICAgICAgICA8YWRyMS8+CiAgICAgICAgICAgIDxhZHIyLz4KICAgICAgICAgICAgPGNwLz4KICAgICAgICAgICAgPHZpbGxlLz4KICAgICAgICAgICAgPHRlbC8+CiAgICAgICAgICAgIDxmYXgvPgogICAgICAgICAgPC9pZHZlcj4KICAgICAgICAgIDxpZGdpcCBzaXJldD0iODI5MTA4ODkzMDAwMTkiPgogICAgICAgICAgICA8bm9tPlZBTElEQVRJT048L25vbT4KICAgICAgICAgICAgPHByZW5vPlRCT0QgQ05WQkRYPC9wcmVubz4KICAgICAgICAgICAgPGdpcGV0YWIgaGRlY2V0PSIiIGhwYWlldD0iIj4KICAgICAgICAgICAgICA8bm9tLz4KICAgICAgICAgICAgICA8cHJlbm8+VEJPRCBDTlZCRFg8L3ByZW5vPgogICAgICAgICAgICA8L2dpcGV0YWI+CiAgICAgICAgICA8L2lkZ2lwPgogICAgICAgIDwvaWRlbnQ+CiAgICAgICAgPGVtZXQ+CiAgICAgICAgICA8d2ViIGlwPSIxOTQuMTI2LjEyOC4yMDEubSIvPgogICAgICAgIDwvZW1ldD4KICAgICAgPC9hYm8+",
+        "coti": "PGNvdGkgc2lyZXQ9IjgyOTEwODg5MzAwMDE5IiBudW1jPSI3MjcwMDAwMDA2NTI2MjI3ODgiIGV0YXQ9IkEiIHRsZHBvaz0iTyIgcWFsaWQ9IlQiIGNhdD0iMyIgc3NjYXQ9IiI+CiAgICA8bm9tPk1NRSAgQ0hPVkVBVSBMQUVUSVRJQSBST1NFPC9ub20+CiAgICA8cHJlbm8vPgogICAgPGFkcjE+UslTSURFTkNFIEpVTEVTIFZFUk5FIDYxNTwvYWRyMT4KICAgIDxhZHIyPjE4IEFWIE1BUkNFTCBEQVNTQVVMVDwvYWRyMj4KICAgIDxjcGxhZHIvPgogICAgPGNwPjMzMzAwPC9jcD4KICAgIDx2aWxsZT5CT1JERUFVWDwvdmlsbGU+CiAgICA8bWFpbD52YWxpZDEwMV93ZWJhZV9jbnYzM0B5b3BtYWlsLmNvbTwvbWFpbD4KICA8L2NvdGk+",
+        "exi": "PGV4aSBxZXhpPSIxOTA1OSIgcWV4dHJhdGg9IjE5MDU5IiBlY2g9IjQ0IiBjb2RwPSIxMCIgcGVyPSIxOTExIiBldGF0PSJBIj4KICAgIDxsaWI+SmFudmllciAyMDE5PC9saWI+CiAgICA8ZGhkZWI+MjAxOTAyMDExMjAwMDE8L2RoZGViPgogICAgPGRoZmRlYz4yMDE5MDIyODEyMDAwMDwvZGhmZGVjPgogICAgPGRoZnBhaT4yMDE5MDIyODEyMDAwMDwvZGhmcGFpPgogICAgPGRocHYyLz4KICA8L2V4aT4=",
+        "cont": "PGNvbnQ+CiAgICA8dmVycyBtYWo9IjEuMCIgbWluPSIxLjAiIHJldj0iIi8+CiAgICA8cmVwcmlzIHJldGNyPSJNQUlMIiBuaXZlYXU9IlJFUFJYIiBzaXRlPSJjIiBzZXJ2ZT0iMTAuMjI3LjE5Ni40MCIgaWRmb3JtPSJSX1NUZU0uUmxnUjZadFRBRkJXdWZmYiIvPgogIDwvY29udD4=",
+        "terminal_pai": "11",
+        "cbs": []
+      },
+      "dh_pai": "le 14/03/2019 à 13:54",
+      "dh_pai_lib": "Date et heure du paiement"
+    },
+    "declaration_validee_lib": "Votre déclaration a bien été validée et reste modifiable jusqu'au . Vous pouvez désormais procéder au paiement de vos cotisations.",
+    "paiement_valide_lib": "Votre paiement a bien été validé et reste modifiable jusqu'au .",
+    "paiement_valide_ar": "",
+    "paiement_valide_pdf": "url_dl_pdf",
+    "verslib": "Vous avez opté pour le versement libératoire de l'impôt sur le revenu.",
+    "accre": "Vous bénéficiez de l'Aide aux chômeurs créateurs ou repreneurs d'une entreprise (ACCRE) au titre de la 2ème année.",
+    "titre_page": "Déclaration mensuelle de chiffre d'affaires",
+    "periodicite": "M",
+    "cptrs": [
+      ""
+    ],
+    "alert_mnt_zero": "Nous vous informons que le montant validé pour le télépaiement est de 0€ alors que vous avez un montant à payer. S'il s'agit d'une erreur, nous vous invitons à modifier cette somme avant l'échéance. Si vous avez choisi un autre moyen de paiement, nous vous rappelons qu'il est impératif d'indiquer votre numéro de compte ainsi que la période concernée.",
+    "declaration_pdf": "http://localhost:8080/rest/webae/dec/JUSTIFS/justificatifs/déclaration de CA_01_2019.pdf"
+  }
+}
