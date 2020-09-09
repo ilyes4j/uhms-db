@@ -1,0 +1,14 @@
+[
+  {
+    "id": 37,
+    "nomOrigine": "piece_identite.pdf",
+    "type": "Pièce d'identité",
+    "typeMime": "application/pdf"
+  },
+  {
+    "id": 38,
+    "nomOrigine": "declaration_affectation_patrimoine.pdf",
+    "type": "Déclaration d’affectation de patrimoine",
+    "typeMime": "application/pdf"
+  }
+]

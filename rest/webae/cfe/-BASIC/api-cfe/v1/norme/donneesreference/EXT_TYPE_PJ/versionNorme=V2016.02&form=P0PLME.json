@@ -1,0 +1,11 @@
+{
+  "classe": {
+    "code": "EXT_TYPE_PJ",
+    "type": "CFE"
+  },
+  "liste": {
+    "PI": "Pièce d'identité",
+    "AUT": "Autre(s) justificatif(s)",
+    "DAP": "Déclaration d'affectation de patrimoine"
+  }
+}
