@@ -1,0 +1,8 @@
+{
+  "id": 267752,
+  "estLu": true,
+  "type": "BIENVENUE_PREINSCRIT",
+  "customSujet": "Bienvenue {{profile.prenom}} {{profile.nom}} dans votre espace personnel. Pour effectuer votre formalité de création d’activité, veuillez cliquer ici.",
+  "dateCreation": "2020-05-25T11:18:42.546+02:00",
+  "cfeJoinUser": 267702
+}

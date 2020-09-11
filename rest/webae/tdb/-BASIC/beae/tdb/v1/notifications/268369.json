@@ -1,0 +1,8 @@
+{
+  "id": 268369,
+  "estLu": false,
+  "type": "BIENVENUE",
+  "customSujet": "Bienvenue {{profile.prenom}} {{profile.nom}} sur votre nouvel espace personnel en ligne. Ce dernier, vous permet d'accéder en quelques clics, à l'ensemble des services dédiés aux auto-entrepreneurs.",
+  "dateCreation": "2020-05-26T14:30:51.171+02:00",
+  "cfeJoinUser": 268313
+}
