@@ -1,0 +1,52 @@
+[
+  {
+    "code": "UR771",
+    "codeOrganisme": "UR117",
+    "libelle": "Site de la Seine-et-Marne : Lieusaint"
+  },
+  {
+    "code": "UR772",
+    "codeOrganisme": "UR117",
+    "libelle": "Site de la Seine-et-Marne : Champs-sur-Marne"
+  },
+  {
+    "code": "UR773",
+    "codeOrganisme": "UR117",
+    "libelle": "Site de la Seine-et-Marne : Dammarie-lès-Lys"
+  },
+  {
+    "code": "UR780",
+    "codeOrganisme": "UR117",
+    "libelle": "Site des Yvelines : Guyancourt"
+  },
+  {
+    "code": "UR910",
+    "codeOrganisme": "UR117",
+    "libelle": "Site de l'Essonne : Evry"
+  },
+  {
+    "code": "UR920",
+    "codeOrganisme": "UR117",
+    "libelle": "Site des Hauts-de-Seine : Nanterre"
+  },
+  {
+    "code": "UR930",
+    "codeOrganisme": "UR117",
+    "libelle": "Site de la Seine-Saint-Denis : Montreuil"
+  },
+  {
+    "code": "UR931",
+    "codeOrganisme": "UR117",
+    "libelle": "Site de la Seine-Saint-Denis : Saint-Ouen"
+  },
+  {
+    "code": "UR950",
+    "codeOrganisme": "UR117",
+    "libelle": "Site du Val-d'Oise : Cergy"
+  },
+  {
+    "code": "UR967",
+    "codeOrganisme": "UR117",
+    "libelle": "Site de Paris Nord : Paris 19e"
+  }
+]
